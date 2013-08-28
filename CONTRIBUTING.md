@@ -16,7 +16,3 @@ You can contribute to this project in several ways. Feel free to fix grammar/spe
 5. On your fork, press the pull request button to submit a pull request here.
 
 [Read more on the forums](https://oc.tc/forums/topics/521d6751af7fb0b80b0041b0)
-
-
-
-
