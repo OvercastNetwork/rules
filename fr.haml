@@ -111,17 +111,51 @@
                 %li
                     %i Les mods suivants sont permis pendant les matchs: (les noms sont en anglais)
                 %ul.unstyled
-                    - @mods[:legal].each do |mod|
-                        %li
-                            %i.icon-ok
-                            = mod
+                    %li
+                        %i.icon-ok
+                        Optifine
+                    %li
+                        %i.icon-ok
+                        ArmorStatusHUD/StatusEffectHUD
+                    %li
+                        %i.icon-ok
+                        Toggle-crouch, pourvu qu’il ne permette pas d’être accroupi pendant l’écriture d’un message, la consultation de son inventaire, ou la consultation des menus.
+                    %li
+                        %i.icon-ok
+                        Les packs de Textures qui ne sont pas compris dans la section “interdits”
+                    %li
+                        %i.icon-ok
+                        Les minimaps, ou mini-cartes, sauf si spécifié dans “interdits”
                 %li
                     %i Les mods suivants sont absolument interdits pendant les matchs:
                 %ul.unstyled
-                    - @mods[:illegal].each do |mod|
-                        %li
-                            %i.icon-remove
-                            = mod
+                    %li
+                        %i.icon-remove
+                        Inventory Sorters - Organisateur d’inventaire
+                    %li
+                        %i.icon-remove
+                        Auto-sprint, ce qui inclue l’attribution d’une touche du clavier au sprint au lieu de taper la touche deux fois.
+                    %li
+                        %i.icon-remove
+                        Les mods qui surexpose ou agrandisse les noms des joueurs.
+                    %li
+                        %i.icon-remove
+                        Les mods qui choisissent automatiquement l’outil nécessaire au moment de casser un bloc.
+                    %li
+                        %i.icon-remove
+                        Les minimaps ou mini-cartes qui montrent la position des entités ainsi que la position des souterrains et des cavernes
+                    %li
+                        %i.icon-remove
+                        X-rays
+                    %li
+                        %i.icon-remove
+                         Auto-hitters - Mods qui frappent automatiquement les joueurs.
+                    %li
+                        %i.icon-remove
+                        Aimbots - Mods qui visent automatiquement les joueurs.
+                    %li
+                        %i.icon-remove
+                        Fly mods - Mods qui permettent de voler dans les airs.
                 %li
                     %i Pour tout autre mod, merci de demander à un membre du staff s’il est autorisé avant de l’utiliser.
                 %li Les Observateurs ne sont pas soumis à ces restrictions.
