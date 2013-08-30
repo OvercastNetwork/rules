@@ -1,0 +1,232 @@
++%section
++    .page-header
++        %h1
++            Reglas
++            %small última actualización Junio 19, 2013
++    .row
++        .span12
++            %span.label.label-warning Nota
++            %span
++            Estas reglas aplican a
++            %b todos los
++            Servicios de Overcast Network
++
++    .page-header
++        %h2
++            A. Comportamiento General
++    .row
++        .span12
++            %ol
++                %li Manten una agradable y relajada atmósfera. Se respetuoso y usa el sentido común. Usar un lenguaje inadecuado, rudeza y acaso no será tolerado.
++                %li Trata de mantener una gramática y ortografía correcta.
++                %li No hagas spam.
++                %li No hagas links a cualquiera de lo siguiente:
++                %ul
++                    %li Material desagradable, el cual incluye pero no se limiita a la pornografía, "sitios chocantes", virus, sitios de phishing y grupos que fomenten el odio.
++                    %li Otros sitios web o servidores en una manera que se considere como publicidad.
++                %li No insites o tomes parte de romper las reglas de los servicios de Overcast Network.
++                %li No trates de hacerte pasar por un miembro del Personal de Overcast Network.
++                Reporta problemas o errores de los servicios de Overcast Network tanto a los foros (http://oc.tc/forums) o a support@oc.tc; hacer uso de los fallos por cualquier razón excepto por ser requerido a demostrarlos por parte de un miembro del Personal, resultará en un castigo.
++                %li Sigue a las indicaciones que sean dadas por el Personal. Si crees que un miembro del Personal te ha dado indicaciones erroneas, favor de mandar un correo a support@oc.tc
++                %span.label.label-warning Nota
++                %small Si tu estas interesado sobre los links que puedan ser considerados publicidad, comentalo a un miembro del Personal antes de publicarlo.
++
++    .page-header
++        %h2 B. Comportamiento en el Foro
++    .row
++        .span12
++            %ol
++                %li No hagas publicaciones enardecedoras. Eso incluye publicaciones con fines de insultar a otra persona, provocando a otra persona a hacer publicaciones enardecedoras, textos de odio, y todo lo que tenga que ver con "inb4 flame war" 
++                %li Las publicaciones deben ser relevantes al tópico; publicaciones irrelevantes serán eliminadas.
++                %li Si crees que un tema debe ser cerrado, envia un reporte a https://oc.tc/report en vez de comentar en el tema.
++                %li Cualquier tipo de imagen o publicación que no deba que pertenecer a el tópico, será hecho sujeto a eliminación. Imagenes con spam e irrelevantes, se removerán.
++                %li No sigas un tema publicando algo que no contribuya constructivamente al tema.
++                %li Todos los problemas personales, serán atendidos en privado. Los foros públicos no son lugar para conflictos personales.
++
++    .page-header
++        %h2 C. Nombres de Usuarios
++    .row
++        .span12
++            %ol
++                %li No trates de hacerte pasar por alguien con tu Nombre de Usuario.
++                %li Tu nombre de usuario deberá ser el mismo que dentro del juego o una variación fácil de identificar.
++                %li No hagas acciones de spam que hagan enviar mensajes a otros (como el "spamming mudo", no hablar o desconectarse y reconectarse rapidamente)
++
++    .page-header
++        %h2 D. Dentro del Juego
++    .row
++        .span12
++            %ol
++                %li No envies mensajes que inciten a otros jugadores salir de su equipo o desconectarse del servidor.
++                %li Excepto que tu estés enseñando a alguien el proceso de reportar, no incites a los demás a reportar a un jugador específico.
++                %li Por favor no acuses a nadie de hacks públicamente. Si tú crees que un jugador esta usando hacks o rompiendo alguna regla reportarlos usando el comando /report <persona> <razón>.
++                %li Usted no puede utilizar cualquier tipo de chat en el juego para implorar. Cualquier cuenta que se determina que es para el uso exclusivo de implorar se suspenderá permanentemente sin previo aviso.
++                %li No puedes vincular o solicitar a otros jugadores a unirse a cualquier server público o privado que no sea parte de Overcast Network en el chat publico. (Puedes usar /msg para informar a los jugadores que lo hayan solicitado).
++                %li Tu nombre de usuario debe ser apropiado, se te pedirá usar una cuenta diferente si tu nombre de usuario es inapropiado.
++                %span.label.label-warning Nota
++                %small Todos los mensajes y comandos están y serán registrados.
++                %br
++                %span.label.label-warning Nota
++                %small Puedes vincular a tu "livestream" relacionado a Overcast Network, siempre que no hagas "spam"
++
++    .page-header
++        %h2 E. Jugabilidad general
++    .row
++        .span12
++            %ol
++                %li Los jugadores no pueden:
++                %ul
++                    %li Evadir un combate, lo cual se define como salirse de un equipo o del servidor antes de ser matado por un miembro del equipo contrario. (Puedes hacerlo para evitar team-griefing)
++                    %li Abusar de fallos de Minecraft para obtener una ventaja para sí o para su equipo, o de una manera que pueda causar "lag" para otros jugadores. Esto incluye, pero no está limitado a, la colocación de bloques en las zonas restringidas por el plug-in para caminar, creando un efecto de "rayos x", y causando a ti mismo ser invencible.
++                %li En una partida de Blitz o de Ghost Squadron los jugadores no pueden:
++                %ul
++                    %li PProlongar el combate evadiendo la batalla y/o escondiéndose en lugares inaccesibles o difíciles de llegar.
++                %li Los observadores no pueden dar información táctica a los jugadores o interrumpir intencionalmente el juego. La información táctica incluye, pero no se limita a:
++                %ul
++                    %li La revelación de las ubicaciones de los jugadores
++                    %li La revelación de la propiedad de la lana en un mapa "Capture the Wool".
++                %li Por favor usa una "skin" apropiada - podrás ser penalizado si usas una "skin" inapropiada.
++                %li o ataques directamente a cualquier "spawn" que no este al lado de algún objetivo ("spawn" se define como el área donde los jugadores entran al área jugable del mapa).
++                %ul
++                    %li Las acciones que están prohibidas por esta regla incluyen, pero no se limitan a cualquiera de los siguientes:
++                    %ul
++                        %li Instigar "PVP" directo o "PVP" con arco al lado del "spawn" del equipo contrario.
++                        %li Apuntar un cañón de TNT al "spawn" o al lado del "spawn" en la manera de que mate jugadores. (Tendrás que modificar tu cañón si esta apuntando a el "spawn"
++                        %li Acciones que hagan el área del "spawn" impasible.
++                        %li Dejando caer TNT desde arriba hacia el "spawn"
++                        %li "Campear" un "spawn" esperando a los jugadores que recientemente se unen a la batalla
++                    %li  Ejemplos de acciones que no serán penalizadas conforme a esta regla incluyen, pero no se limitan a lo siguiente:
++                    %ul
++                        %li Accidentalmente disparar un cañón (mientras sea corregido por el jugador que dispara una vez que son conscientes).
++                        %li Luchar contra los jugadores que hacen "rush" en un atacante sin prepararse.
++                        %li Luchar contra los jugadores en / desde un "spawn" que este cerca de un objetivo.
++                %span.label.label-warning Nota
++                %small Las reglas de "Spawn-killing" no se aplicaran en los mapas de "TDM" ni en los mapas de "Blitz", se espera que defiendas.
++
++    .page-header
++        %h2 F. Modificaciones del cliente
++    .row
++        .span12
++            %ol
++                %li Cualquier modificación del cliente que de una ventaja injusta sobre otro usuario "vainilla" de Minecraft son ilegales al jugar.
++                %li
++                    %i Los siguientes mods están explícitamente permitidos durante el juego:
++                %ul.unstyled
++                    %li
++                        %i.icon-ok
++                        Optifine
++                    %li
++                        %i.icon-ok
++                        ArmorStatusHUD/StatusEffectHUD
++                    %li
++                        %i.icon-ok
++                        Toggle-crouch, mientras no te permita agacharte al escribir, al ver en tu inventario, o en cualquier menu.
++                    %li
++                        %i.icon-ok
++                        Texturas que no entran en ninguna categoría "prohibida expresamente"
++                    %li
++                        %i.icon-ok
++                        Minimaps excepto por los especificados a continuación.
++                %li
++                    %i Los siguientes mods estan explícitamente prohibidos al jugar:
++                    %li
++                        %i.icon-remove
++                        Sorteadores de inventario
++                    %li
++                        %i.icon-remove
++                        Auto-sprint, incluyendo tener una "tecla para correr" en lugar de utilizar doble toque.
++                    %li
++                        %i.icon-remove
++                        Mods que exponen o amplían los campos del nombre de los jugadores.
++                    %li
++                        %i.icon-remove
++                        Minimaps que muestren las posiciones de entidad, o que muestren cuevas subterráneas.
++                    %li
++                        %i.icon-remove
++                        Rayos X (X-rays)
++                    %li
++                        %i.icon-remove
++                        Auto-golpeadores (Auto-Hitters)
++                    %li
++                        %i.icon-remove
++                        "Aimbots"
++                    %li
++                        %i.icon-remove
++                        Mods para volar
++                %li
++                    %i Para otros mods, pida a un miembro del personal la confirmación antes de usarlos.
++                %li Los observadores no están sujetos a estas restricciones
++                %span.label.label-warning Nota
++                %small Esta sección se actualizará periódicamente, por favor mantente al día.
++
++    .page-header
++        %h2 G. "Team Griefing"
++    .row
++        .span12
++            %ol
++                %li "Team griefing" está prohibido, y se define como cualquier acción imprudente que dañe a su propio equipo, o acciones que perjudiquen intencionadamente a su propio equipo.
++                %li
++                    %i Las siguientes acciones son explícitamente "Team Griefing":
++                %ol{:type => "a"}
++                    %li La colocación y / o la creación de TNT cerca de tus compañeros o cerca de las infraestructuras centrales del equipo (por ejemplo, cofres, defensas o minerales) dentro de tu propia base.
++                    %li La destrucción de cofres o mesas de crafteo de tu propio equipo.
++                    %li "Teamkilling" (ya sea mediante la eliminación de bloques de debajo de un compañero para provocar su caída, o empujar a sus compañeros fuera del mundo)
++                    %li El uso de / modificación de un cañón de TNT construido por otros usuarios sin su permiso explícito.
++                    %li Ayudar o colaborar con un miembro del otro equipo.
++                %li
++                    %i Las siguientes son considerados imprudentes (Podrás ser advertido al romper una de las siguientes reglas):
++                %ol{:type => "a"}
++                    %li Poner TNT en tu propia base, especialmente crear torres de TNT.
++                    %li Poner TNT cerca de un compañero u objetivo.
++                    %li Tomar toda o casi toda la lana en un mapa "CTW" de cualquier cuarto de lana, a menos que solo quede una lana en ese cuarto.
++                %li Cualquier acción que no se presente en esta lista que impidan el progreso de su equipo hacia el triunfo de la partida, aún se considera "Team-Griefing" y pueden ser tratados como tales.
++                %span.label.label-warning Nota
++                %small
++                     A los jugadores
++                    %b NUNCA 
++                    se les permitirá hacer "Team Grief", incluso en venganza a otra jugador que este haciendo "Team Grief".
++
++    .page-header
++        %h2 H. Reglas especificas de los mapas
++    .row
++        .span12
++            %ol
++                %li Todos los jugadores se hacen responsables de mantenerse al día con las reglas de los mapas. Estas se pueden encontrar un tablero de reglas en el "spawn" de cada mapa, o usando el comando /map.
++                %li Las reglas en /map tienen prioridad sobre el tablero de reglas en casos relacionados con el mismo tema.
++
++    .page-header
++        %h2 I. Infracciones
++    .row
++        .span12
++            %ol
++                %li Los jugadores pueden recibir una advertencia o una infracción si rompen cualquiera de las reglas, dependiendo en la severidad de la violación.
++                %li Al recibir una infracción, los jugadores podrán ser expulsados, suspendidos por 7 días o permanentemente, dependiendo del número infracciones anteriores, excluyendo las advertencias.
++                %li En los casos especialmente graves o flagrantes de alguna violación de las normas, incluyendo pero no limitado al uso de un cliente con "hacks" en los servidores, o constantemente haciendo "Team Grief", dará lugar a una suspensión permanente e inmediato, sin previo aviso.
++                %li Jugadores con muchas advertencias por la misma regla se les denegara el acceso al servidor temporalmente y sin previo aviso.
++                %li Evadir una suspensión no está permitido y resultará en una suspensión permanente de todas las cuentas alternativas asociadas con el jugador que a evadido. Las cuentas alternativas no serán apeladas hasta que la suspensión original haya expirado, y la suspensión original pueden extenderse hasta tres veces la longitud de la suspensión inicial. (Por ejemplo, 1 semana de suspensión se convierte en 3 semanas de suspensión).
++                %li La evasión persistente de una suspensión resultará en una suspensión permanente de todas las cuentas.
++                %li
++                    Los jugadores que violen las reglas del foro se les prohibirá publicar en los foros. Si la prohibición se mantiene durante más de 7 días, por favor póngase en contacto con
++                    %a{:href => "mailto:support@oc.tc"} support@oc.tc
++                    para la longitud exacta de su suspensión.
++                %li Los jugadores que violen cualquier regla de mumble pueden ser expulsados ​​o suspendidos del servidor de mumble.
++                %li Los jugadores que violen las normas de cualquier servicio de Overcast Network, incluyendo los servidores, los foros y mumble, pueden ser suspendidos de cualquiera o de todos los servicios.
++                %li
++                    Las suspensiones que se hacen en los servidores pueden ser apeladas llenando una apelación en
++                    = succeed '.' do
++                        %a{:href => "/appeal"} https://oc.tc/appeal
++                    Las suspensiones de los foros y/o de mumble tendran que ser apeladas por un email a
++                    = succeed '.' do
++                        %a{:href => "mailto:support@oc.tc"} support@oc.tc
++                %li
++                    %b Cualquier jugador que proporcione información falsa en su apelación puede ser suspendido de forma permanente.
++                %li Todas las infracciones están sujetas a la discreción del moderador.
++    .page-header
++        %h2 J. Varios
++    .row
++        .span12
++            %ol
++                %li Estas normas están sujetas a cambiar con previo aviso.
++                %li Los jugadores se hacen responsables de mantenerse actualizados con los cambios de reglas.
++                %li Hay un período de una semana para los cambios en las reglas.
++                %li La administración de Overcast Network se reserva el derecho a suspender o eliminar la suspensión a/de cualquier jugador de cualquiera de los servicios de Overcast Network por cualquier motivo y sin previo aviso.
