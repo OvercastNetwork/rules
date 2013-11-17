@@ -3,6 +3,7 @@
         %h1
             Regler
             %small Sidst opdateret den 19. Juni 2013
+            = render "select"
     .row
         .span12
             %span.label.label-warning Note
@@ -220,7 +221,7 @@
                     Bandlysninger fra spillet kan blive appelleret ved at udfylde en appel ved
                     = succeed '.' do
                         %a{:href => "/appeal"} https://oc.tc/appeal
-                    Forum og Mumble bandlysninger skal appelleres via email hos 
+                    Forum og Mumble bandlysninger skal appelleres via email hos
                     = succeed '.' do
                         %a{:href => "mailto:support@oc.tc"} support@oc.tc
                 %li
