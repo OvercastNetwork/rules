@@ -2,7 +2,7 @@
     .page-header
         %h1
             Regeln
-            %small Zuletzt geändert am 31.08.2013
+            %small Zuletzt geändert am 23.09.2014
             = render "select"
     .row
         .span12
@@ -10,7 +10,7 @@
             %span
             Diese Regeln gelten auf
             %b allen von
-            "Overcast Network" angebotenen Diensten
+            "Overcast Network" angebotenen Diensten.
 
     .page-header
         %h2
@@ -22,27 +22,33 @@
                 %li Versuche korrekte Grammatik und Rechtschreibung einzuhalten (Englisch und andere Sprachen).
                 %li Kein Spam im Chat.
                 %li Verlinke keines der folgenden Dinge:
-                %ul
+                %ol{:type => "a"}
                     %li Pornografische Inhalte, "Schock"-Seiten, Viren oder Phishing-Seiten oder nationalsozialistische Inhalte.
                     %li Werbung für andere Webseiten oder Server
+                    %li
+                        %a{:href => "https://en.wikipedia.org/wiki/Personally_identifiable_information#Examples"} Personal identifying information of other users.
                 %li Regelverstöße, sowie die Unterstützung selbiger wird nicht toleriert.
-                %li Behaupte nicht, du wärst ein Moderator auf diesem Server, wenn du keiner bist.
+                %li Do not impersonate any member of the Overcast Network staff, or claim to be a staff member.
                 %li Sende Bugs oder dergleichen and support@oc.tc oder erstelle einen Thread in den Foren (http://oc.tc/forums); Das Ausnutzen von Bugs wird bestraft, außer du wurdest von einem Moderator angewiesen, den Bug zu demonstrieren.
                 %li Befolge alle Anweisungen eines Overcast Network Moderator. Wenn du glaubst, ein Moderator hat dich falsch angewiesen oder in die Irre geführt, sende eine Email an support@oc.tc.
                 %span.label.label-warning Hinweis
                 %small Berate dich mit einen Moderator, bevor du einen möglicherweise als Werbung geltenden Link postest.
 
     .page-header
-        %h2 B. Verhalten im Forum
+        %h2 B. Website Behavior
     .row
         .span12
             %ol
                 %li Starte keine "Flame Wars". Dies beinhaltet das Erstellen von Posts, die eine Person beleidigen oder sie dazu anstiften einen "Flame War" zu starten. Hasstiraden oder dergleichen sind ebenfalls nicht erlaubt.
-                %li Alle Posts sollten zum Thema beitragen. Unnötige Posts (Off-Topic) werden, wenn nicht als solche gekennzeichnet, gelöscht.
-                %li Wenn du denkst, ein Thread sollte geschlossen werden, nutze oc.tc/report.
+                %li Posts made should be relevant to the topic; irrelevant posts may be deleted.
+                %li If you think a thread should be locked, submit a report via https://oc.tc/report instead of commenting it in the thread.
                 %li Bilder, die nicht relevant für das Thema sind, werden gelöscht.
                 %li "Bumpe" keine Threads. Das heißt, du sollt keine Posts erstellen, nur damit dieser Thread wieder auf die Startseite der Foren gelangt.
                 %li Alle persönlichen Konflikte müssen privat (z.B. über Skype) besprochen werden. Nutze das Forum nicht für solche Angelegenheiten.
+                %li Do not abuse HTML in profiles or forum posts in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
+                %li Intentionally lying in reports may result in an infraction.
+                %small.label.label-warning Note
+                %small Your profile or contact information may be wiped without notice.
 
     .page-header
         %h2 C. Mumble
@@ -54,15 +60,15 @@
                 %li Spamme keine Sprachnachrichten, d.h. drücke nicht schnell auf den "mute" Knopf oder ähnliches.
 
     .page-header
-        %h2 D. Im Spiel
+        %h2 D. Server Behavior
     .row
         .span12
             %ol
                 %li Schreibe keine Nachrichten, die Spieler auffordern das Team oder den Server zu verlassen.
                 %li Fordere niemanden dazu auf, jemand anders mit /report zu melden.
-                %li Unterstelle niemandem öffentlich, ein "Hacker" zu sein. Wenn du glaubst, dass jemand "hackt" oder in irgendeiner Weise die Regeln bricht, nutze /report <Spieler> <Grund>
-                %li Verlinke keine öffentlichen oder privaten Server, die nicht Teil des "Overcast Network" sind. (Du kannst jedoch /msg <Spieler> <Nachricht> nutzen, um jemanden einen Server vorzuschlagen, z.B. einem Freund).
-                %li Dein Nutzername sollte angemessen sein, und nicht vulgär oder angreifend. Falls dein Nutzername diese Kriterien nicht erfüllt, werden wir dich fragen, ob du nicht einen anderen Nutzernamen nutzen kannst.
+                %li Please do not publicly accuse any players of hacking. If you believe a player is hacking or breaking any rules report them using the /report command.
+                %li You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use /msg command to inform players that request it).
+                %li Your username must be appropriate, and you may be asked to use a different account if your username is found to be inappropriate. (This does not count as ban evasion.)
                 %span.label.label-warning Hinweis
                 %small Alle Nachrichten und eingegebene Kommandos werden gespeichert.
                 %br
@@ -74,43 +80,28 @@
     .row
         .span12
             %ol
-                %li Spieler dürfen nicht:
-                %ul
-                    %li "Combat loggen". "Combat loggen" ist definiert wie folgt: Absichtlich das Spiel verlassen oder das Team wechseln, um einem Tod zu entgehen. (Du kannst das Spiel verlassen, wenn der Tod durch einen "Team-Griefer" verursacht würde)
-                    %li Bugs in Minecraft ausnutzen, um einen Vorteil den anderen Spielern gegenüber zu erlangen. Dies beinhaltet folgendes: Blöcke dort plazieren, wo das Plugin es eigentlich nicht erlaubt, um auf diesem Block zu laufen, eine "X-Ray" Maschine mit Glowstone oder TNT zu bauen.
-                %li In "Blitz" oder "Ghost Squadron"-Spielen ist es verboten:
-                %ul
-                    %li Die Partie zu verlängern, indem man sich versteckt oder den Kampf vermeidet.
+                %li Spieler dürfen nicht bugs in Minecraft ausnutzen, um einen Vorteil den anderen Spielern gegenüber zu erlangen. Dies beinhaltet folgendes: Blöcke dort plazieren, wo das Plugin es eigentlich nicht erlaubt, um auf diesem Block zu laufen, eine "X-Ray" Maschine mit Glowstone oder TNT zu bauen.
+                %li In "Blitz" oder "Ghost Squadron"-Spielen ist es verboten die Partie zu verlängern, indem man sich versteckt oder den Kampf vermeidet.
                 %li Beobachter (Observer) dürfen keine taktischen Informationen an die spielenden Teams weitergeben. Taktische Informationen beinhaltet Folgendes:
-                %ul
+                %ol{:type => "a"}
                     %li Das Verraten der Position eines Spielers
                     %li Das Verraten des Wolle-Trägers auf einer "Capture-the-Wool" map.
                 %li Bitte nutze keinen vulgären oder sonstig unpassenden Skin. Du wirst gebannt, bis du einen neuen Skin hast.
-                %li Attackiere nicht direkt den Spawn des Gegners (Der Spawnpunkt ist definiert, als der Punkt in dem der Gegner das Spielfeld betritt).
-                %ul
-                    %li Das folgende gilt as "Spawnkilling" und ist verboten:
-                    %ul
-                        %li Den direkten (Schwert) oder indirekten (Bogen) Angriff auf den Spawn des Gegners.
-                        %li TNT Kanonen auf den Spawn des Gegners richten(Die Kanone muss umgebaut werden, sollte sie den Spawn treffen).
-                        %li Jegliche Aktion, die den Spawnbereich unpassierbar machen.
-                        %li Das Runterfallen lassen von TNT in einen Spawn.
-                        %li "Camping" einen Spawnpunkt in dem man neben dem Spawn auf neu spawnende Spieler wartet.
-                    %li Ausgenommen sind:
-                    %ul
-                        %li Unabsichtliches Treffen des Spawns mit einer TNT-Kanone (Nur wenn der Spieler die Kanone dann umbaut).
-                        %li Kämpfen gegen neu gespawnte Spieler, die auf einen zurennen, ohne sich Ausrüstung zu besorgen.
-                        %li Kämpfen gegen Spieler, wenn das "objective" der Map nah am Spawnpunkt liegt.
+                %li Do not spawn camp.
+                %ol{:type => "a"}
+                    %li Do not "camp" a spawn by waiting next to or in a spawn for newly spawned players.
+                    %li Do not directly attack any spawn (e.g. run towards a spawn and start hitting people in that spawn, stick around, and kill everyone that spawns).
+                    %li Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
                 %span.label.label-warning Hinweis
-                %small Diese "Spawnkilling" Regeln gelten nicht bei "TDM" oder "Blitz"-Spielen.
+                %small Diese "Spawnkilling" Regeln gelten nicht auf "Team Deathmatch" oder "Blitz" Spielen.
 
     .page-header
         %h2 F. Modifikationen des Minecraft Clients
     .row
         .span12
             %ol
-                %li Jegliche Modifikation des Clients, welche dir einen unfairen Vorteil gegenüber anderen gibt,ist illegal.
-                %li
-                    %i Die folgenden Mods sind explizit erlaubt:
+                %li Jegliche Modifikation des Clients, welche dir einen unfairen Vorteil gegenüber anderen gibt, ist illegal.
+                %li The following modifications are explicitly permitted during gameplay:
                 %ul.unstyled
                     %li
                         %i.icon-ok
@@ -120,7 +111,7 @@
                         ArmorStatusHUD/StatusEffectHUD
                     %li
                         %i.icon-ok
-                        Toggle-crouch, vorraugesetzt, es erlaubt nicht zu schleichen während man schreibt, oder in Inventare oder Menüs sieht
+                        Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
                     %li
                         %i.icon-ok
                         Texture Packs, die nicht in die Kategorie "Ausdrücklich verboten" fallen
@@ -128,14 +119,11 @@
                         %i.icon-ok
                         Minimaps, außer den unten beschriebenen
                 %li
-                    %iDie folgenden Mods sind während des Spiels explizit verboten:
+                    %iDie The following modifications are explicitly prohibited during gameplay:
                 %ul.unstyled
                     %li
                         %i.icon-remove
                         Inventory Sorters
-                    %li
-                        %i.icon-remove
-                        Auto-sprint, einschließlich die Benutzung einer Sprinttaste statt des normalen Sprintens.
                     %li
                         %i.icon-remove
                         Mods, die Nametags vergrößern oder besser lesbar machen
@@ -157,11 +145,21 @@
                     %li
                         %i.icon-remove
                         Fly mods
-                %li
-                    %i Für Modifikationen, bei denen dir nicht klar ist, ob sie illegal sind, frag einen Moderator, bevor du sie nutzt.
+                    %li
+                        %i.icon-remove
+                        Damage/Health Indicator
+                    %li
+                        %i.icon-remove
+                        SmartMoving
+                    %li
+                        %i.icon-remove
+                        Better Sprinting
+                %li For any other mods, email support@oc.tc for confirmation before using it.
                 %li Beobachter (Observer) sind nicht an diese Regeln gebunden.
                 %span.label.label-warning Hinweis
-                %small Dieser Abschnitt wird manchmal aktualisiert. Es wird erwartet, das du immer auf dem neusten Stand bist.
+                %small Players in creative mode are not bound to these restrictions.
+                %span.label.label-warning Hinweis
+                %small Players in the lobby are not allowed to use fly modifications.
 
     .page-header
         %h2 G. Sabotage des eigenen Teams ("Team Griefing")
@@ -169,16 +167,14 @@
         .span12
             %ol
                 %li Die Sabotage des eigenen Teams ("Team griefing") ist verboten, und ist definiert als jegliche Aktion, die deinem Team in irgendeiner Weise schadet.
-                %li
-                    %i Das Folgende zählt als Sabotage des eigenen Teams ("Team Griefing"):
+                %li Das Folgende zählt als Sabotage des eigenen Teams ("Team Griefing"):
                 %ol{:type => "a"}
                     %li Das Plazieren oder Aktivieren von TNT neben Spielkameraden oder wichtigen Punkten auf der Map, z.B. die Ausrüstungskisten.
                     %li Das Zerstören von Werkbänken des Teams.
                     %li "Teamkilling" (z.B. durch das Entfernen eines Blocks unter einem Teamkameraden, was ihn zum Fall bringt).
                     %li Das Nutzen oder Verändern einer Kanone, die man nicht selber gebaut hat.
                     %li Dem anderen Team helfen oder mit ihnen zusammen, anstatt gegen sie zu arbeiten.
-                %li
-                    %i Das Folgende wird als rücksichtslos und nicht empfehlenswert betrachtet (Du wirst für das Folgende verwarnt, aber nicht direkt bestraft):
+                %li Das Folgende wird als rücksichtslos und nicht empfehlenswert betrachtet (Du wirst für das Folgende verwarnt, aber nicht direkt bestraft):
                 %ol{:type => "a"}
                     %li Das Bauen von Säulen aus TNT in der eigenen Basis.
                     %li Das Mitnehmen von allen oder fast allen Wollblöcken auf einer "Capture the Wool" Map, es sei denn, es ist nur noch ein Wollblock übrig.
@@ -198,12 +194,12 @@
                 %li Die Regeln von /map haben Vorrang vor denen auf den Schildern.
 
     .page-header
-        %h2 I. Regelverstöße
+        %h2 I. Consequences
     .row
         .span12
             %ol
                 %li Spieler werden bei Regelverstoß entweder verwarnt oder bestraft.
-                %li Wenn ein Spieler bestraft wird, wird er entweder gekickt, für 7 Tage gebannt oder permanent gebannt. Dies ist abhängig von der Anzahl der bereits vorhandenen Bestrafungen.
+                %li The severity of the infraction is usually based on the player’s previous infractions.
                 %li Bei besonders schwerwiegenden Regelverstößen, einschließlich das nutzen von "Hacking Clients" oder extremer Sabotage des eigenen Teams ("Team Grief"), wird der Spieler sofort und ohne vorherige Warnung permanent gebannt.
                 %li Spieler mit vielen Warnungen für den gleichen Regelverstoss können temporär gebannt werden.
                 %li Das Nutzen eines Zweit-Accounts, während der Erst-Account gebannt ist, wird nicht gestattet, und alle Zweit-Accounts werden sofort auch gebannt. Die Zweit-Accounts werden für immer permanent gebannt werden, auch wenn der Bann auf dem Erst-Account abgelaufen ist, und die Länge des Banns auf dem Erst-Account wird verdreifacht.
@@ -225,7 +221,9 @@
                         gehandhabt.
                 %li
                     %b Jeder Spieler, der im Revisionsverfahren nachweisbar lügt, wird permanent gebannt.
-                %li Alle Bestrafungen unterliegem dem Ermessen der Moderatoren.
+                %span.label.label-warning Hinweis
+                %small All infractions are subject to staff discretion.
+
     .page-header
         %h2 J. Sonstiges
     .row

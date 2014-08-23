@@ -2,7 +2,7 @@
     .page-header
         %h1
             Regolamento
-            %small Aggiornato al 19 giugno 2013
+            %small Last Updated August 23, 2014
             = render "select"
     .row
         .span12
@@ -10,7 +10,7 @@
             %span
             Queste regole si applicano a
             %b tutti
-            i servizi offerti da Overcast Network
+            i servizi offerti da Overcast Network.
 
     .page-header
         %h2
@@ -22,27 +22,33 @@
                 %li Cercare di parlare in modo corretto;
                 %li Non inviare spam;
                 %li Non inviare link che puntano ai seguenti argomenti:
-                %ul
+                %ol{:type => "a"}
                     %li Materiale offensivo, che include ma non si limita alla pornografia, ma anche siti shockanti, virus, siti di pishing e gruppi di odio;
                     %li Altri siti o server in modo da fare pubblicità agli stessi;
+                    %li
+                        %a{:href => "https://en.wikipedia.org/wiki/Personally_identifiable_information#Examples"} Personal identifying information of other users.
                 %li Non incoraggiare o partecipare a violazioni del regolamento nei servizi offerti da Overcast Network;
-                %li Non impersonare nessuno dei membri dello staff di Overcast Network, o rivendicare di essere un membro dello staff;
-                Riportare problemi o bugs dei servizi offerti da Overcast Network tramite i forum (http://oc.tc/forums) o a support@oc.tc; sfruttare i bug per ogni ragione eccetto dimostrarli alla richiesta di un membro dello staff risulterà in un'infrazione;
-                %li Seguire ogni direttiva data da un membro dello staff di Overcast Network. Se pensi che un membro dello staff ti abbia dato una direttiva sbagliata, invia un'email a support@oc.tc;
+                %li Do not impersonate any member of the Overcast Network staff, or claim to be a staff member.
+                %li Riportare problemi o bugs dei servizi offerti da Overcast Network tramite i forum (http://oc.tc/forums) o a support@oc.tc; sfruttare i bug per ogni ragione eccetto dimostrarli alla richiesta di un membro dello staff risulterà in un'infrazione;
+                %li Follow any directions given by a Overcast Network staff member. If you believe a staff member has directed you wrongly, please email support@oc.tc.
                 %span.label.label-warning Nota
                 %small Se sei indeciso a proposito di link che potrebbero costituire pubblicità, chiedi chiarimenti a un membro dello staff prima di inviarlo.
 
     .page-header
-        %h2 B. Comportamento nel Forum
+        %h2 B. Website Behavior
     .row
         .span12
             %ol
                 %li Non fare flame nei post. Questo include postare contenuti allo scopo di offendere un'altra persona, provocare un'altra persona per creare un flame, linguaggio rude, e qualsiasi cosa risulti in una "flame war";
-                %li I post devono essere rilevanti per l'argomento del thread; i post irrilevanti verranno cancellati;
-                %li Se pensi che un thread vada bloccato, invia un report tramite https://oc.tc/report al posto di commentarlo nel thread stesso;
+                %li Posts made should be relevant to the topic; irrelevant posts may be deleted.
+                %li If you think a thread should be locked, submit a report via https://oc.tc/report instead of commenting it in the thread.
                 %li Qualsiasi immagine o post non pertinente al thread è soggetto a rimozione. Le immagini di spam verranno rimosse;
                 %li Non rialzare i thread postando qualsiasi cosa che non contribuisce costruttivamente al thread;
                 %li Tutti i problemi personali vanno risolti in privato. I forum pubblici non sono il posto per i conflitti personali;
+                %li Do not abuse HTML in profiles or forum posts in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
+                %li Intentionally lying in reports may result in an infraction.
+                %small.label.label-warning Note
+                %small Your profile or contact information may be wiped without notice.
 
     .page-header
         %h2 C. Mumble
@@ -54,16 +60,16 @@
                 %li Non spammare azioni che inviano messaggi agli altri giocatori (come spammare il muto, stordire o connettersi e disconnettersi continuamente);
 
     .page-header
-        %h2 D. Nel Gioca
+        %h2 D. Server Behavior
     .row
         .span12
             %ol
                 %li Non spedire messaggi che incoraggiano gli altri giocatori a lasciare la squadra o a disconnettersi dal server;
                 %li A meno che non si stia spiegando il sistema di racconto, non bisogna incoraggiare gli altri giocatori a segnalare un giocatore specifico;
-                %li Non fare accuse pubbliche di hacking verso nessun giocatore. Se pensi il player stia hackerando o infrangendo qualche regole segnalandolo utilizzando il comando /report (/report <giocatore> <messaggio>);
+                %li Non fare accuse pubbliche di hacking verso nessun giocatore. Se pensi il player stia hackerando o infrangendo qualche regole segnalandolo utilizzando il comando /report;
                 %li Non puoi usare nessuna forma di messaggio nel gioco per adescare. Qualsiasi account che è stato determinato al solo scopo di adescare verrà permanentemente bannato senza alcun avviso;
-                %li Non puoi inviare link verso, o sollecitare i player a entrare, qualsiasi server pubblico o privato che non è parte di Overcast Network nella chat pubblica (puoi usare /msg <giocatore> <messaggio> per informare il giocatore);
-                %li Il tuo nome utente deve essere appropriato, e ti potrà esser chiesto di utilizzare un account differente se il tuo nome è utente è trovato inappropiato;
+                %li Non puoi inviare link verso, o sollecitare i player a entrare, qualsiasi server pubblico o privato che non è parte di Overcast Network nella chat pubblica (puoi usare /msg per informare il giocatore);
+                %li Il tuo nome utente deve essere appropriato, e ti potrà esser chiesto di utilizzare un account differente se il tuo nome è utente è trovato inappropiato; (This does not count as ban evasion.)
                 %span.label.label-warning Nota
                 %small Tutti i messaggi di chat e i comandi eseguiti sono registrati.
                 %br
@@ -75,34 +81,20 @@
     .row
         .span12
             %ol
-                %li I giocatori non possono:
-                %ul
-                    %li Fare combat log, che è definito come uscire dalla tua squadra o dal server prima che tu muoia a causa di un membro della squadra avversaria. (Puoi fare combat log solo per non essere vittime di team-griefing);
-                    %li Abusare di glitch di Minecraft per avantaggiarti su gli altri o sui loro team, o in una maniera da causare lag per gli altri giocatori. Questo include, ma non è limitato a, piazzare blocchi in aree protette dal plug-in per camminarci sopra, creare un effetto "x-ray", e renderti invincibile;
-                %li In una partita nelle modalità di gioco Blitz e Ghost Squadron i giocatori non possono:
-                %ul
-                    %li Prolungare la partita evitando di combattere e/o nascondersi in posti inaccessibili o difficili da raggiungere;
+                %li I giocatori non possono abusare di glitch di Minecraft per avantaggiarti su gli altri o sui loro team, o in una maniera da causare lag per gli altri giocatori. Questo include, ma non è limitato a, piazzare blocchi in aree protette dal plug-in per camminarci sopra, creare un effetto "x-ray", e renderti invincibile;
+                %li In una partita nelle modalità di gioco Blitz e Ghost Squadron i giocatori non possono prolungare la partita evitando di combattere e/o nascondersi in posti inaccessibili o difficili da raggiungere;
                 %li Gli osservatori non devono mai fornire informazioni tattiche agli altri giocatori o distruggere intenzionalmente il gameplay. Le informazioni tattiche includono, ma non sono limitate da:
-                %ul
+                %ol{:type => "a"}
                     %li Rivelare la posizione di altri giocatori;
                     %li Rivelare il portatore della lana in una mappa Capture The Wool;
                 %li Utilizzare una skin appropriata - puoi essere punito per avere una skin non appropriata;
-                %li Non attaccare direttamente nessuno spawn se non è in prossimità di un obbiettivo (spawn è definito come l'area in cui i giocatori entrano nell'area giocabile della mappa);
-                %ul
-                    %li Azioni che sono proibite da questa regola, ma non limitatamente a qualcuna delle seguenti azioni:
-                    %ul
-                        %li Istigare PvP o PvP tramite l'arco dentro o accanto allo spawn del team avversario;
-                        %li Puntare cannoni di TNT sullo o accanto allo spawn del team avversario allo scopo di uccidere giocatori (devi modificare il tuo cannone se punta allo spawn);
-                        %li Azioni che rendono l'area di spawn inagibile;
-                        %li Sganciare TNT da sopra lo spawn;
-                        %li "Campeggiare" in uno spawn nascondendosi/aspettando accanto allo spawn per uccidere i giocatori appena spawnati;
-                    %li Esempi di azioni che non sono punibili tramite questa regola, ma non limitatamente a qualcuno di questi esempi:
-                    %ul
-                        %li Lancio di un cannone accidentale (garantendo che venga corretto dal proprietario appena ne fa un altro);
-                        %li Combattimento fra un player che fa "rush" e un attaccante che si equipaggia (regola generale: a un secondo dall'obbiettivo):
-                        %li Combattimento fra giocatori che entrano/escono dallo spawn che è vicino all'obbiettivo;
+                %li Do not spawn camp.
+                %ol{:type => "a"}
+                    %li Do not "camp" a spawn by waiting next to or in a spawn for newly spawned players.
+                    %li Do not directly attack any spawn (e.g. run towards a spawn and start hitting people in that spawn, stick around, and kill everyone that spawns).
+                    %li Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
                 %span.label.label-warning Nota
-                %small Le regole sull'uccisione allo spawn non si applicano nelle mappe TDM e Blitz; ci si aspetta che tu ti difendi.
+                %small Spawn camping rules do not apply on Team Deathmatch and Blitz maps.
 
     .page-header
         %h2 F. Modifiche al Client
@@ -110,8 +102,7 @@
         .span12
             %ol
                 %li Qualsiasi modifica che dia un vantaggio sleale sui giocatori senza modifiche è illegale mentre si gioca;
-                %li
-                    %i Le seguenti mod sono esplicitamente permesse durante il gioco:
+                %li Le seguenti mod sono esplicitamente permesse durante il gioco:
                 %ul.unstyled
                     %li
                         %i.icon-ok
@@ -121,22 +112,18 @@
                         ArmorStatusHUD/StatusEffectHUD;
                     %li
                         %i.icon-ok
-                        Toggle-crouch, garantendo che non permette di effettuare il crouch mentre si scrive, si guarda nell'inventario o in qualsiasi menù;
+                        Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
                     %li
                         %i.icon-ok
                         Pacchetti di risorse che non ricadono sotto alcuna categoria proibita;
                     %li
                         %i.icon-ok
                         Minimappe eccetto quanto specificato sotto;
-                %li
-                    %i Le seguenti mod sono esplicitamente proibite durante il gioco:
+                %li Le seguenti mod sono esplicitamente proibite durante il gioco:
                 %ul.unstyled
                     %li
                         %i.icon-remove
                         Ordinatori dell'inventario;
-                    %li
-                        %i.icon-remove
-                        Auto-sprint, includendo il riservare un tasto per effettuare lo sprint al posto di premere due volte;
                     %li
                         %i.icon-remove
                         Mod che rendono più visibile il nome dei giocatori;
@@ -157,12 +144,21 @@
                         Aimbot;
                     %li
                         %i.icon-remove
-                        Fly modM
-                %li
-                    %i Per qualsiasi altra mod, chiedere a un membro dello staff prima di utilizzarla;
-                %li Gli osservatori non sono tenuti a rispettare queste restrizioni;
+                        Fly mod;
+                    %li
+                        %i.icon-remove
+                        Damage/Health Indicator;
+                    %li
+                        %i.icon-remove
+                        SmartMoving;
+                    %li
+                        %i.icon-remove
+                        Better Sprinting;
+                %li For any other mods, email support@oc.tc for confirmation before using it.
                 %span.label.label-warning Nota
-                %small Questa sezione è aggiornata frequentemente, quindi tienila d'occhio.
+                %small Players in creative mode are not bound to these restrictions.
+                %span.label.label-warning Nota
+                %small Players in the lobby are not allowed to use fly modifications.
 
     .page-header
         %h2 G. Team Griefing
@@ -170,16 +166,14 @@
         .span12
             %ol
                 %li Il team griefing è proibito, ed è definito come ogni azione senza ritegno che nuoce alla tua stessa squadra, i azioni che nuociono intenzionalmente alla tua squadra;
-                %li
-                    %i Le seguenti azioni sono esplicitamente team griefing:
+                %li Le seguenti azioni sono esplicitamente team griefing:
                 %ol{:type => "a"}
                     %li Posizionare e/o attivare TNT vicino ai compagni di squadra o vicino a infrastrutture chiave della squadra (es. ceste, difese o minerali) all'interno della propria base;
                     %li Distruggere le proprie ceste o banchi da lavoro;
                     %li Uccisione di membri della propria squadra (anche rimuovendo blocchi sotto i loro piedi facendoli cadere o spingendoli fuori dal mondo);
                     %li Utilizzare/modificare un cannone di TNT costruito da un'altro giocatore senza l'esplicito permesso;
                     %li Aiutare o lavorare insieme a un membro della squadra avversaria;
-                %li
-                    %i Le seguenti azioni sono considerate senza ritegno e fortemente scoraggiate (puoi essere avvisato di infrangere le regole seguenti):
+                %li Le seguenti azioni sono considerate senza ritegno e fortemente scoraggiate (puoi essere avvisato di infrangere le regole seguenti):
                 %ol{:type => "a"}
                     %li Posizionare TNT nella propria base, specialmente costruire torri di TNT nella propria base;
                     %li Costruire un cannone di TNT non protetto vicino ai propri compagni di squadra o vicino agli obbiettivi;
@@ -200,12 +194,12 @@
                 %li Le regole in /map prendono la precedenza su queste regole in caso trattino lo stesso argomento;
 
     .page-header
-        %h2 I. Infrazioni
+        %h2 I. Consequences
     .row
         .span12
             %ol
                 %li I giocatori possono ricevere un avviso durante il gioco o un infrazione per aver violato qualsiasi delle regole qui sopra, dipendentemente dalla serietà della violazione;
-                %li Quando ricevono un'infrazione, i giocatori verranno o kickati, o bannati temporaneamente o bannati permanentemente, dipendentemente dal numero delle infrazioni precedenti, escludendo gli avvisi;
+                %li The severity of the infraction is usually based on the player’s previous infractions.
                 %li In particolari casi (seri o palesi) di violazione delle regole, includendo (ma non limitatando) l'uso di client hackerati sui server, o consistenti team griefing, e nonostante l'intervento di un moderatore, risulterà immediatamente in un ban permanente, senza avvisi;
                 %li I giocatori con molti avvisi per la stessa regola potranno essere bannati temporaneamente senza alcun avviso;
                 %li L'evasione dal ban non è permessa, e risulterà in un ban permanente per tutti gli account alternativi associati al player evaso. Gli account alternativi non saranno sbannati finché il ban originale non sarà finito, e il ban originale verrà esteso per il triplo della lunghezza originale. (es. un ban per una settimana diventa un ban per tre settimane);
@@ -224,7 +218,8 @@
                         %a{:href => "mailto:support@oc.tc"} support@oc.tc
                 %li
                     %b Qualsiasi giocatori che fornisce false informazioni nel suo appello potrà essere bannato permanentemente;
-                %li Tutte le infrazioni sono inviate a giudizio dei moderatori;
+                %span.label.label-warning Nota
+                %small All infractions are subject to staff discretion.
     .page-header
         %h2 J. Varie
     .row
