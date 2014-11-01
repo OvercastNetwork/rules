@@ -99,11 +99,17 @@ Network services.
         .span12
             %ol
                 %li Do not send messages that encourage other players into leaving a team or disconnecting from the server.
+                لا ترسل رسائل للاعبين تشجعهم على ترك الفريق او الخروج من اللعبة
                 %li Unless you are explaining the report process, you may not encourage others to report a specific player.
+                لاتحفز اللاعبين على ارسال الشكاوي عن لاعب ما و لكن بإمكانك شرح عملية ارسال شكوى لهم
                 %li Please do not publicly accuse any players of hacking. If you believe a player is hacking or breaking any rules report them using the /report command.
+              لا تقم بإتهام اي لاعب بالغش في المحادثات . إذا انت تعتقد بأن لاعب يقوم بالغش بطريقة ما يجب عليك ان تقوم بارسال شكوى عنه او عنها عن طريق الأمر /report  
                 %li You may not use any form of in game chat to solicit. Any account that is determined to be for the sole use of soliciting will be permanently banned without warning.
+                يمنع ان تستخدم المحادثات في اللعبة للطلبات مثل طلب المال او الخدمات غير المتعلقة في اللعبة. أي حساب يستعمل فقط للطلبات من اللاعبين سوف يتم حظره من الشبكة إلى الأبد
                 %li You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use /msg command to inform players that request it).
+               يمنع أن تستخدم المحادثة الجماعية للترويج عن شبكات أخرى غيرمتعلقة في شكبة  Overcast  و  لكن يمكنك أن تستخدم الأمر لكي تعطي هذه المعلومات لأي لاعب يطلبها. /msg   
                 %li Your username must be appropriate, and you may be asked to use a different account if your username is found to be inappropriate. (This does not count as ban evasion.)
+                يجب أن يكون اسم الحساب ملائم و يمكن ان يطلب منك استعمال حساب آخر اذا وجد أن الاسم الذي إخترته غيرملائم. هذا لن يعتبر محاولة لخرق الحظر الذي تفرضه الشبكة على حسابات اللاعبين الذين يقومون بخرق القوانين.
                 %span.label.label-warning Note
                 %small All chat messages and commands are logged.
                 %br
