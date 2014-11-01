@@ -1,0 +1,249 @@
+%section
+    .page-header
+        %h1
+            Rules
+            %small Last Updated August 23, 2014
+            = render "select"
+    .row
+        .span12
+            %span.label.label-warning Note
+            %span
+            These rules apply to
+هذه القواعد تنطبق على جميع الاعبين في الشبكة 
+            %b all
+            Overcast Network Services.
+
+    .page-header
+        %h2
+            A. General Composure
+    .row
+القواعد بشكل عام
+        .span12
+            %ol
+                %li Maintain a pleasant, casual atmosphere. Be respectful and use common sense. Excessive swearing, rudeness and harassment is not tolerated.
+%الحفاظ على القواعد بشكل عام,عدم استخدام أية الفاظ بذيئة,و الحفاظ على جو هادئ
+           %li Try to maintain proper spelling and grammar.
+       محاولة التكلم بلغة صحيحة و الحفاظ على قواعد لغة صحيحة      
+   %li Do not spam.
+%لا تكتب الشيء ذاته أكثر من مرة
+
+                %li Do not link to any of the following:
+                %ol{:type => "a"}
+                    %li Objectionable material, which includes but is not limited to pornography, "shock sites", viruses, phishing sites and hate groups.
+                    %li Other websites or servers in a manner that constitutes advertising.
+                    لاعط الروابط للأشياء التالية
+اولا:الماقع التي يمكن ان تحتوي فيروسات أومواد أيباحية
+ثانيا:الماقع التي تهدف الى الترويج بشكل عام.
+
+                        %a{:href => "https://en.wikipedia.org/wiki/Personally_identifiable_information#Examples"} Personal identifying information of other users.
+لا تشارك معلومات شخص معين الخصوصية
+ 
+               %li Do not encourage or partake in rule breaking on Overcast 
+Network services.
+لا تأخذ دور أو تحفز على خرق القوانين.
+                %li Do not impersonate any member of the Overcast Network staff, or claim to be a staff member.
+                %li Report issues or bugs of Overcast Network services to either the forums (http://oc.tc/forums) or to support@oc.tc; exploitation of bugs for any reason other than to demonstrate at the request of a staff member will result in a punishment.
+              
+  %li Follow any directions given by a Overcast Network staff member. If you believe a staff member has directed you wrongly, please email support@oc.tc.
+                %span.label.label-warning Note
+                %small If you are concerned about links that may constitute advertising, please clarify with a staff member before posting.
+
+    .page-header
+        %h2 B. Website Behavior
+    .row
+        .span12
+            %ol
+                %li Do not make inflammatory posts. This includes posts aiming to insult another person, provoke another person into making inflammatory posts, hate speech, and anything resembling "inb4 flame war."
+                %li Posts made should be relevant to the topic; irrelevant posts may be deleted.
+
+                %li If you think a thread should be locked, submit a report via https://oc.tc/report instead of commenting it in the thread.
+
+                %li Any image or post that does not pertain to the topic is subject to removal. Irrelevant image spam will be removed.
+                %li Do not "bump" threads by posting something that does not contribute constructively to the thread.
+                %li All personal issues must be dealt with in private. The public forums are not the place for personal conflicts.
+                %li Do not abuse HTML in profiles or forum posts in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
+                %li Intentionally lying in reports may result in an infraction.
+                %small.label.label-warning Note
+                %small Your profile or contact information may be wiped without notice.
+    .page-header
+        %h2 C. Mumble
+    .row
+        .span12
+            %ol
+                %li Do not impersonate other players on Mumble.
+                %li Your Mumble name should be your in-game name or some easily identified variation.
+                %li Do not spam actions that send messages to others (such as spamming mute, deafen or disconnecting and reconnecting repeatedly)
+
+    .page-header
+        %h2 D. Server Behavior
+    .row
+        .span12
+            %ol
+                %li Do not send messages that encourage other players into leaving a team or disconnecting from the server.
+                %li Unless you are explaining the report process, you may not encourage others to report a specific player.
+                %li Please do not publicly accuse any players of hacking. If you believe a player is hacking or breaking any rules report them using the /report command.
+                %li You may not use any form of in game chat to solicit. Any account that is determined to be for the sole use of soliciting will be permanently banned without warning.
+                %li You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use /msg command to inform players that request it).
+                %li Your username must be appropriate, and you may be asked to use a different account if your username is found to be inappropriate. (This does not count as ban evasion.)
+                %span.label.label-warning Note
+                %small All chat messages and commands are logged.
+                %br
+                %span.label.label-warning Note
+                %small You may link to your Overcast Network related livestream, so long as you don’t spam it.
+
+    .page-header
+        %h2 E. General Gameplay
+    .row
+        .span12
+            %ol
+                %li Players may not abuse glitches. This includes, but is not limited to, placing blocks in areas restricted by the plugin to walk on, creating an "x-ray" effect, and causing yourself to be invincible.
+                %li In a Blitz or Ghost Squadron match, players may not prolong a match by avoiding combat and/or hiding in places that are inaccessible or difficult to get to.
+                %li Observers may never give tactical information to players or intentionally disrupt gameplay. Tactical information includes, but is not limited to:
+                %ol{:type => "a"}
+                    %li Revealing the locations of players
+                    %li Revealing the ownership of wool in a Capture the Wool map
+                %li Please use an appropriate skin - you may be punished for an inappropriate skin.
+                %li Do not spawn camp.
+                %ol{:type => "a"}
+                    %li Do not "camp" a spawn by waiting next to or in a spawn for newly spawned players.
+                    %li Do not directly attack any spawn (e.g. run towards a spawn and start hitting people in that spawn, stick around, and kill everyone that spawns).
+                    %li Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
+                %span.label.label-warning Note
+                %small Spawn camping rules do not apply on Team Deathmatch and Blitz maps.
+
+    .page-header
+        %h2 F. Client Modifications
+    .row
+        .span12
+            %ol
+                %li Any client modifications that give an unfair advantage over vanilla Minecraft users are illegal while playing.
+                %li The following modifications are explicitly permitted during gameplay:
+                %ul.unstyled
+                    %li
+                        %i.fa.fa-check
+                        Optifine
+                    %li
+                        %i.fa.fa-check
+                        ArmorStatusHUD/StatusEffectHUD
+                    %li
+                        %i.fa.fa-check
+                        Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
+                    %li
+                        %i.fa.fa-check
+                        Texture packs that do not fall under any "explicitly prohibited" category
+                    %li
+                        %i.fa.fa-check
+                        Minimaps except as specified below
+                %li The following modifications are explicitly prohibited during gameplay:
+                %ul.unstyled
+                    %li
+                        %i.fa.fa-times
+                        Inventory Sorters
+                    %li
+                        %i.fa.fa-times
+                        Mods that expose or enlarge the name-tags of players
+                    %li
+                        %i.fa.fa-times
+                        Automatic tool selectors
+                    %li
+                        %i.fa.fa-times
+                        Minimaps that show entity positions, or show caves/underground.
+                    %li
+                        %i.fa.fa-times
+                        X-rays
+                    %li
+                        %i.fa.fa-times
+                        Auto-hitters
+                    %li
+                        %i.fa.fa-times
+                        Aimbots
+                    %li
+                        %i.fa.fa-times
+                        Fly mods
+                    %li
+                        %i.fa.fa-times
+                        Damage/Health Indicator
+                    %li
+                        %i.fa.fa-times
+                        SmartMoving
+                    %li
+                        %i.fa.fa-times
+                        Better Sprinting
+                %li For any other mods, email support@oc.tc for confirmation before using it.
+                %li Observers are not bound to these restrictions.
+                %span.label.label-warning Note
+                %small Players in creative mode are not bound to these restrictions.
+                %br
+                %span.label.label-warning Note
+                %small Players in the lobby are not allowed to use fly modifications.
+
+    .page-header
+        %h2 G. Team Griefing
+    .row
+        .span12
+            %ol
+                %li Team griefing is prohibited, and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team.
+                %li The following are explicitly team griefing:
+                %ol{:type => "a"}
+                    %li Placing and/or setting off TNT near teammates or near key team infrastructure (eg. chests, defences or ore) within one’s own base
+                    %li Destroying one's own team's chests or workbenches
+                    %li Teamkilling (either by removing blocks from beneath a person to cause them to fall, or pushing teammates off the world)
+                    %li Using/modifying a TNT cannon built by another player without explicit permission
+                    %li Aiding or working together with a member of the other team
+                %li  The following are considered reckless and strongly discouraged (you may be warned for breaking the following rules):
+                %ol{:type => "a"}
+                    %li Placing TNT in one’s own base, especially building TNT towers in one's own base
+                    %li Building unprotected TNT near teammates or objectives
+                    %li Taking all or almost all of the wool in a Capture the Wool map out of a wool room, unless there is only one wool left in that wool room
+                %li Any actions that are not listed here that hinder your team’s progress towards winning the match, deliberate or not, still fall under "team griefing" and may be dealt with as such.
+                %span.label.label-warning Note
+                %small
+                    Players are
+                    %b NEVER
+                    permitted to team grief, even in retaliation to another team griefer.
+
+    .page-header
+        %h2 H. Map Specific Rules
+    .row
+        .span12
+            %ol
+                %li All players are responsible for keeping up to date with all map rules. Map rules are found on map rule boards at that map’s spawn, and via the /map command.
+                %li The rules in /map take precedent over the rule board in cases regarding the same subject.
+
+    .page-header
+        %h2 I. Consequences
+    .row
+        .span12
+            %ol
+                %li Players may receive an in game warning or an infraction for breaking any of the rules above, depending on the severity of the violation.
+                %li The severity of the infraction is usually based on the player’s previous infractions.
+                %li In particularly serious or blatant cases of rules violation, including but not limited to using a hacking client on the servers, or consistently team griefing despite moderator intervention, will result in an immediate permanent ban, without warning.
+                %li Players with many warnings for the same rule may be temporarily banned without notice.
+                %li Ban evasion is not permitted, and will result in a permanent ban for all alternate accounts associated with the evading player. The alternate accounts will not be unbanned once the original ban expired, and the original ban may be extended up to thrice the length of the original ban. (e.g. 1 week ban becomes up to a 3 week ban).
+                %li Persistent ban evasion will result in a permanent ban for all accounts.
+                %li
+                    Players violating any forum rules may be banned from posting to the forums. If your ban stays for more than 7 days please contact
+                    %a{:href => "mailto:support@oc.tc"} support@oc.tc
+                    for the exact length of your ban.
+                %li Players violating any mumble rules may be kicked or banned from the mumble server
+                %li Players violating the rules on any Overcast Network service, including the game servers, the forums, and mumble, may be banned from any or all of the services.
+                %li
+                    In game bans must be appealed by filing an appeal at
+                    = succeed '.' do
+                        %a{:href => "/appeal"} https://oc.tc/appeal
+                    Forum and mumble bans must be appealed via an email to
+                    = succeed '.' do
+                        %a{:href => "mailto:support@oc.tc"} support@oc.tc
+                %li
+                    %b Any player that knowingly gives false info in his or her appeal may be permanently banned.
+                %span.label.label-warning Note
+                %small All infractions are subject to staff discretion.
+    .page-header
+        %h2 J. Miscellaneous
+    .row
+        .span12
+            %ol
+                %li These rules are subject to change with notice.
+                %li Players are responsible for keeping up with rule changes.
+                %li There is a one week grace period for rule changes.
+                %li The Overcast Network Administration reserves the right to ban or unban any player from any Overcast Network services for any reason without notice.
