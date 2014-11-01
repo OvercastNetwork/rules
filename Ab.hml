@@ -107,7 +107,7 @@ Network services.
                 %li You may not use any form of in game chat to solicit. Any account that is determined to be for the sole use of soliciting will be permanently banned without warning.
                 يمنع ان تستخدم المحادثات في اللعبة للطلبات مثل طلب المال او الخدمات غير المتعلقة في اللعبة. أي حساب يستعمل فقط للطلبات من اللاعبين سوف يتم حظره من الشبكة إلى الأبد
                 %li You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use /msg command to inform players that request it).
-               يمنع أن تستخدم المحادثة الجماعية للترويج عن شبكات أخرى غيرمتعلقة في شكبة  Overcast  و  لكن يمكنك أن تستخدم الأمر لكي تعطي هذه المعلومات لأي لاعب يطلبها. /msg   
+               و    يمنع أن تستخدم المحادثة الجماعية للترويج عن شبكات أخرى غيرمتعلقة في شكبة  Ovrcast  و  يمكنك أن تستخدم الأمر لكي تعطي هذه المعلومات لأي لاعب يطلبها. /msg   
                 %li Your username must be appropriate, and you may be asked to use a different account if your username is found to be inappropriate. (This does not count as ban evasion.)
                 يجب أن يكون اسم الحساب ملائم و يمكن ان يطلب منك استعمال حساب آخر اذا وجد أن الاسم الذي إخترته غيرملائم. هذا لن يعتبر محاولة لخرق الحظر الذي تفرضه الشبكة على حسابات اللاعبين الذين يقومون بخرق القوانين.
                 %span.label.label-warning Note
@@ -118,31 +118,46 @@ Network services.
 
     .page-header
         %h2 E. General Gameplay
+        اللعب بشمل عام
     .row
         .span12
             %ol
-                %li Players may not abuse glitches. This includes, but is not limited to, placing blocks in areas restricted by the plugin to walk on, creating an "x-ray" effect, and causing yourself to be invincible.
+                %li Players may not abuse glitches. This includes, but is not limited to, placing blocks in areas restricted by the plugin to walk on, creating an "x-ray" effect, and causing yourself to be invincible.                 
+                لا يسمح للاعب بان يستغل الأخطاءالتقنية مثلا التي تصعب من قتله
                 %li In a Blitz or Ghost Squadron match, players may not prolong a match by avoiding combat and/or hiding in places that are inaccessible or difficult to get to.
+             .لا يسمح للاعب بأن يختبئ في أماكن يصعب الوصول اليها Blitz or Ghost Squadron match  في العاب ال
                 %li Observers may never give tactical information to players or intentionally disrupt gameplay. Tactical information includes, but is not limited to:
+                لا يستطيع المتفرجون اعطاء معلومات ن احدا الفريقين و من هذه المعلومات
                 %ol{:type => "a"}
                     %li Revealing the locations of players
                     %li Revealing the ownership of wool in a Capture the Wool map
+                 أعطاء ماقع الاعبين 
+                 أعطاء موقع حامل الصوف في مباريات امتلاك الصوف
                 %li Please use an appropriate skin - you may be punished for an inappropriate skin.
+                الرجاء عدم استعمال شكل غير ملاءم
                 %li Do not spawn camp.
+                عدم التخيم في مكان النزول
                 %ol{:type => "a"}
                     %li Do not "camp" a spawn by waiting next to or in a spawn for newly spawned players.
+                    عدم انتظار نزول الاعبين الجدد في مكان النزول
                     %li Do not directly attack any spawn (e.g. run towards a spawn and start hitting people in that spawn, stick around, and kill everyone that spawns).
+                    عدم التركيز على اماكن النزول  مثلا الا تقف هناك و تقتل الاعبين تكرار
                     %li Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
+                    لا توجه مدافع المتفجرات على اماكن النزول مباشرة و لا ترسل المتفجرات يدويا بشكل مباشر ايضا
                 %span.label.label-warning Note
                 %small Spawn camping rules do not apply on Team Deathmatch and Blitz maps.
+              Deathmatch and Blitz  هذه القوانين لا تنطبق على مباريات ال 
 
     .page-header
         %h2 F. Client Modifications
+        التعديلات للعبة
     .row
         .span12
             %ol
                 %li Any client modifications that give an unfair advantage over vanilla Minecraft users are illegal while playing.
+                أي تعديلات تعطي للاعب افضلية فهي ممنوعة
                 %li The following modifications are explicitly permitted during gameplay:
+                هذه التعديلات مسموح بها
                 %ul.unstyled
                     %li
                         %i.fa.fa-check
@@ -153,6 +168,7 @@ Network services.
                     %li
                         %i.fa.fa-check
                         Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
+                        
                     %li
                         %i.fa.fa-check
                         Texture packs that do not fall under any "explicitly prohibited" category
@@ -160,6 +176,7 @@ Network services.
                         %i.fa.fa-check
                         Minimaps except as specified below
                 %li The following modifications are explicitly prohibited during gameplay:
+                هذه التعديلات غير مسموح بها
                 %ul.unstyled
                     %li
                         %i.fa.fa-times
@@ -173,6 +190,7 @@ Network services.
                     %li
                         %i.fa.fa-times
                         Minimaps that show entity positions, or show caves/underground.
+                        الخرائط التي تظهر اماكن الاعبين او الكوف و ما تحت الأرض
                     %li
                         %i.fa.fa-times
                         X-rays
@@ -194,13 +212,17 @@ Network services.
                     %li
                         %i.fa.fa-times
                         Better Sprinting
-                %li For any other mods, email support@oc.tc for confirmation before using it.
+                %li For any other mods, email support@oc.tc for confirmation before using it
+            .support@oc.tc :.لئية تعديلات اخرى يجب الاستفسار عنها عن طريق 
                 %li Observers are not bound to these restrictions.
+                المتفرجين لا تنطبق عليهم هذه القوانين
                 %span.label.label-warning Note
                 %small Players in creative mode are not bound to these restrictions.
+                بعض الاعبين الذين يطورون الشبكة لاتنطبق عليهم هذه القوانين
                 %br
                 %span.label.label-warning Note
                 %small Players in the lobby are not allowed to use fly modifications.
+                الاعبين في الردهة لايسمح لهم بتغير طريقة الطيران
 
     .page-header
         %h2 G. Team Griefing
