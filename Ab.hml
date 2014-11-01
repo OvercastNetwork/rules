@@ -69,20 +69,30 @@ Network services.
                 %li Any image or post that does not pertain to the topic is subject to removal. Irrelevant image spam will be removed.
                 أي صورة او منشور لا يتعلق بالموضوع معرض الى الحذف.
                 %li Do not "bump" threads by posting something that does not contribute constructively to the thread.
+                لا تنشر شيأ يمكنه مساعدة رفع الماضيع التي لسي لها علاقة.
+            
                 %li All personal issues must be dealt with in private. The public forums are not the place for personal conflicts.
+                الماضيع الخصوصية تنحل على انفراد و يمنع نشرها على الموقع.
+            
                 %li Do not abuse HTML in profiles or forum posts in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
+                لا تنشر شيأ :مقطع فيديو او صورة يمكنها تسبيب المشاكل لدى الناس من الناحية التقنية.
+            
                 %li Intentionally lying in reports may result in an infraction.
+                الكذب في الشكاوى يمكنه تسبيب المشاكل  للاعب 
                 %small.label.label-warning Note
                 %small Your profile or contact information may be wiped without notice.
+                اذا ارتكبت اخطاءكثيرة فهناك فرصة بفصلك من الشبكة
     .page-header
         %h2 C. Mumble
     .row
         .span12
             %ol
                 %li Do not impersonate other players on Mumble.
+                لا تأخذ اسماء لاعبين أخرين على شبكة ال :mumble.
                 %li Your Mumble name should be your in-game name or some easily identified variation.
+                أسمك على المبمبل يجب ان يكون سهل التعريف
                 %li Do not spam actions that send messages to others (such as spamming mute, deafen or disconnecting and reconnecting repeatedly)
-
+لا تقول الشيء مرار او تفعل افعال مزعجة عليه
     .page-header
         %h2 D. Server Behavior
     .row
