@@ -226,16 +226,25 @@ Network services.
 
     .page-header
         %h2 G. Team Griefing
+        التخريب على الفريق
     .row
         .span12
             %ol
                 %li Team griefing is prohibited, and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team.
+التخريب على الفريق ممنوع واي تصرف سواء ان كان بنية الدفاع ام لا اذا خرب على الفريق فهو ممنوع                
                 %li The following are explicitly team griefing:
+                هذه الاعمال ممنوعة خصيصا
                 %ol{:type => "a"}
                     %li Placing and/or setting off TNT near teammates or near key team infrastructure (eg. chests, defences or ore) within one’s own base
+                    محاولة تفجير لاعب اخر على نفس الفريق او محاولة تفجير معدات الفريق
                     %li Destroying one's own team's chests or workbenches
+                 تدمير (اماكن الصناعة الخاصة ب لفريق
                     %li Teamkilling (either by removing blocks from beneath a person to cause them to fall, or pushing teammates off the world)
+                    قتل افراد الفريق بأي طريقة ممكنة
                     %li Using/modifying a TNT cannon built by another player without explicit permission
+                    اللعب او تخيب مدفع شخص معين من دون اذنه
+                    
+                    
                     %li Aiding or working together with a member of the other team
                 %li  The following are considered reckless and strongly discouraged (you may be warned for breaking the following rules):
                 %ol{:type => "a"}
