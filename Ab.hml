@@ -40,25 +40,34 @@
  
                %li Do not encourage or partake in rule breaking on Overcast 
 Network services.
-لا تأخذ دور أو تحفز على خرق القوانين.
+ لا تأخذ دور أو تحفز على خرق القوانينز
                 %li Do not impersonate any member of the Overcast Network staff, or claim to be a staff member.
                 %li Report issues or bugs of Overcast Network services to either the forums (http://oc.tc/forums) or to support@oc.tc; exploitation of bugs for any reason other than to demonstrate at the request of a staff member will result in a punishment.
-              
-  %li Follow any directions given by a Overcast Network staff member. If you believe a staff member has directed you wrongly, please email support@oc.tc.
+              لا تأخذ دور الموظفين في الشبكة
+              اذا كان لديك مشكلة فيمكنك نشرها على:(http://oc.tc/forums)
+ 
+%li Follow any directions given by a Overcast Network staff member. If you believe a staff member has directed you wrongly, please email support@oc.tc.
+أتبع التعليمات التي يعطيها الموظفينو اذا احسست ان احد من الموظفين يعاملك بشكل خاطئ فيمكنك ارسال رسالة الى :support@oc.tc.
                 %span.label.label-warning Note
                 %small If you are concerned about links that may constitute advertising, please clarify with a staff member before posting.
+                اذا اردت نشر رابط ما فتأكد انه قابل للنشر و اسأل أحد من الموظفين.
+                
 
     .page-header
         %h2 B. Website Behavior
+        السلوك على الموقع:
     .row
         .span12
             %ol
                 %li Do not make inflammatory posts. This includes posts aiming to insult another person, provoke another person into making inflammatory posts, hate speech, and anything resembling "inb4 flame war."
                 %li Posts made should be relevant to the topic; irrelevant posts may be deleted.
+                لا تنشر شيأ بهدف اهانة شخص ما,يكون في هذه المنشورات الكلام الجارح مالك تفادوها.
 
                 %li If you think a thread should be locked, submit a report via https://oc.tc/report instead of commenting it in the thread.
+             اذا رأيت ان منشور غير مناسب و يجب حذفه فتستطيع ارسال رسالة الى :https://oc.tc/report عوضا عن التعليق عليه.
 
                 %li Any image or post that does not pertain to the topic is subject to removal. Irrelevant image spam will be removed.
+                أي صورة او منشور لا يتعلق بالموضوع معرض الى الحذف.
                 %li Do not "bump" threads by posting something that does not contribute constructively to the thread.
                 %li All personal issues must be dealt with in private. The public forums are not the place for personal conflicts.
                 %li Do not abuse HTML in profiles or forum posts in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
