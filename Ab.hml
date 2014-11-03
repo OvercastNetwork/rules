@@ -106,19 +106,15 @@
                     %li Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
                     %liلا توجه مدافع المتفجرات على اماكن النزول مباشرة و لا ترسل المتفجرات يدويا بشكل مباشر ايضا
                 %span.label.label-warning Note
-                %small Spawn camping rules do not apply on Team Deathmatch and Blitz maps.
               %Deathmatch and Blitz  هذه القوانين لا تنطبق على مباريات ال 
 
     .page-header
-        %h2 F. Client Modifications
-        التعديلات للعبة
+        %h2 F.التعديلات للعبة
     .row
         .span12
             %ol
-                %li Any client modifications that give an unfair advantage over vanilla Minecraft users are illegal while playing.
-               %أي تعديلات تعطي للاعب افضلية فهي ممنوعة
-                %li The following modifications are explicitly permitted during gameplay:
-                %هذه التعديلات مسموح بها
+               %li أي تعديلات تعطي للاعب افضلية فهي ممنوعة
+                %li هذه التعديلات مسموح بها
                 %ul.unstyled
                     %li
                         %i.fa.fa-check
@@ -128,15 +124,14 @@
                         ArmorStatusHUD/StatusEffectHUD
                     %li
                         %i.fa.fa-check
-                        Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
+                        Toggle-crouch :التي لا تسمح بالنزول بينما تكتب
                         
                     %li
                         %i.fa.fa-check
-                        Texture packs that do not fall under any "explicitly prohibited" category
+                        اي اشكال للعبةو الا الغير مسموح بها
                     %li
                         %i.fa.fa-check
-                        Minimaps except as specified below
-                %li The following modifications are explicitly prohibited during gameplay:
+                        Minimaps : موضحة في الفقرة
                 %هذه التعديلات غير مسموح بها
                 %ul.unstyled
                     %li
@@ -144,150 +139,101 @@
                         Inventory Sorters
                     %li
                         %i.fa.fa-times
-                        Mods that expose or enlarge the name-tags of players
+                      التعديلات التي تكبر او توضح أسماء الاعبين
                     %li
                         %i.fa.fa-times
-                        Automatic tool selectors
+                        التعديلات التي تعطي الاداة المطلوبة بشكل اوتومتيكي
                     %li
                         %i.fa.fa-times
-                        Minimaps that show entity positions, or show caves/underground.
                         الخرائط التي تظهر اماكن الاعبين او الكوف و ما تحت الأرض
                     %li
                         %i.fa.fa-times
-                        X-rays
+                        التعديلات التي تسمح بالرؤية تحت الارض
                     %li
                         %i.fa.fa-times
-                        Auto-hitters
+                        الضرب الوتومتيكي
                     %li
                         %i.fa.fa-times
-                        Aimbots
+                        التصويب الوتومتيكي
                     %li
                         %i.fa.fa-times
-                        Fly mods
+                        التعديلات التي تسمح بالطيران
                     %li
                         %i.fa.fa-times
-                        Damage/Health Indicator
+                     مؤشرات الدم/القوة
                     %li
                         %i.fa.fa-times
                         SmartMoving
                     %li
                         %i.fa.fa-times
                         Better Sprinting
-                %li For any other mods, email support@oc.tc for confirmation before using it
-            .support@oc.tc :.لئية تعديلات اخرى يجب الاستفسار عنها عن طريق 
-                %li Observers are not bound to these restrictions.
-                %المتفرجين لا تنطبق عليهم هذه القوانين
-                %span.label.label-warning Note
-                %small Players in creative mode are not bound to these restrictions.
+            %li support@oc.tc :.لئية تعديلات اخرى يجب الاستفسار عنها عن طريق 
+                %li المتفرجين لا تنطبق عليهم هذه القوانين
+                % span.label.label-warning Note
                 %بعض الاعبين الذين يطورون الشبكة لاتنطبق عليهم هذه القوانين
                 %br
                 %span.label.label-warning Note
-                %small Players in the lobby are not allowed to use fly modifications.
                 %الاعبين في الردهة لايسمح لهم بتغير طريقة الطيران
 
     .page-header
-        %h2 G. Team Griefing
-        %التخريب على الفريق
+        %h2 G.التخريب على الفريق
     .row
         .span12
             %ol
-                %li Team griefing is prohibited, and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team.
-%التخريب على الفريق ممنوع واي تصرف سواء ان كان بنية الدفاع ام لا اذا خرب على الفريق فهو ممنوع                
-                %li The following are explicitly team griefing:
-                %هذه الاعمال ممنوعة خصيصا
+%li التخريب على الفريق ممنوع واي تصرف سواء ان كان بنية الدفاع ام لا اذا خرب على الفريق فهو ممنوع                
+                %li هذه الاعمال ممنوعة خصيصا
                 %ol{:type => "a"}
-                    %li Placing and/or setting off TNT near teammates or near key team infrastructure (eg. chests, defences or ore) within one’s own base
-                    %محاولة تفجير لاعب اخر على نفس الفريق او محاولة تفجير معدات الفريق
-                    %li Destroying one's own team's chests or workbenches
-                 %تدمير (اماكن الصناعة الخاصة ب لفريق
-                    %li Teamkilling (either by removing blocks from beneath a person to cause them to fall, or pushing teammates off the world)
-                    %قتل افراد الفريق بأي طريقة ممكنة
-                    %li Using/modifying a TNT cannon built by another player without explicit permission
-                    %اللعب او تخيب مدفع شخص معين من دون اذنه
-                 %li Aiding or working together with a member of the other team
-                     %مساعدة او اللعب مع لاعب من الفريق الأخر
-                %li  The following are considered reckless and strongly discouraged (you may be warned for breaking the following rules):
-                %الأتي يعتبر غير مبالاة ويرجى الابتعاد عنه و  يمكن أن يتم تحذيرك او اذا خرقت القوانين الاتية
+                    %li محاولة تفجير لاعب اخر على نفس الفريق او محاولة تفجير معدات الفريق
+                    %li تدمير طاولة العمل الخاصة بزميل من زملائك    
+                    %li قتل افراد الفريق بأي طريقة ممكنة
+                    %li اللعب او تخيب مدفع شخص معين من دون اذنه
+                     %li مساعدة او اللعب مع لاعب من الفريق الأخر
+                %li الأتي يعتبر غير مبالاة ويرجى الابتعاد عنه و  يمكن أن يتم تحذيرك او اذا خرقت القوانين الاتية
                 %ol{:type => "a"}
-                    %li Placing TNT in one’s own base, especially building TNT towers in one's own base
-                    %وضع المتفجرات في مقر فريقك و بالأخص وضع عمود من المتفجرات في المقر
-                    %li Building unprotected TNT near teammates or objectives
-                    %وضع المتفجرات الغير مراقبة عند المقر
-                    %li Taking all or almost all of the wool in a Capture the Wool map out of a wool room, unless there is only one wool left in that wool room
-                    %أخذ جميع الصوف في خريطة امتلاك الصوف الا اذا كان اخر صوف متبقي في تلك الخريطة
-                %li Any actions that are not listed here that hinder your team’s progress towards winning the match, deliberate or not, still fall under "team griefing" and may be dealt with as such.
-                %اي تصرفات اخرى تعيق فريقك من الفوز تقع تحت التخريب على الفريق و تنطبق العقابات عليها
+                    %li وضع المتفجرات في مقر فريقك و بالأخص وضع عمود من المتفجرات في المقر
+                    %li وضع المتفجرات الغير مراقبة عند المقر
+                    %li أخذ جميع الصوف في خريطة امتلاك الصوف الا اذا كان اخر صوف متبقي في تلك الخريطة
+                %li اي تصرفات اخرى تعيق فريقك من الفوز تقع تحت التخريب على الفريق و تنطبق العقابات عليها
                 %span.label.label-warning Note
                 %small
-                    Players are
-                    %b NEVER
-                    permitted to team grief, even in retaliation to another team griefer.
                    %لا يسمح للاعبين ب التخريب على الفريق تحت اي ظرف
 
     .page-header
-        %h2 H. Map Specific Rules
-        &قوانين متعلقة بالخرائط
+        &h2 H.قوانين متعلقة بالخرائط
     .row
         .span12
             %ol
-                %li All players are responsible for keeping up to date with all map rules. Map rules are found on map rule boards at that map’s spawn, and via the /map command.
-              &/map  جميع الاعبين مسؤومين عن معرفة قواننين الخريطة  بأستخدام 
-                %li The rules in /map take precedent over the rule board in cases regarding the same subject.
-            %/map القوانين المذكورة في  تأخذ الأولوية على القوانين الأخرى
+              %li map  جميع الاعبين مسؤومين عن معرفة قواننين الخريطة  بأستخدام 
+            %limap القوانين المذكورة في  تأخذ الأولوية على القوانين الأخرى
 
     .page-header
-        %h2 I. Consequences
-        %العقوبات
+        %h2 I. العقوبات
     .row
         .span12
             %ol
-                %li Players may receive an in game warning or an infraction for breaking any of the rules above, depending on the severity of the violation.
-                 %يمكن أن يتلقى الاعب إنذار داخل اللعبة أو عقوبة بسبب خرق أي من القوانين المذكورة أعلى إعتمادا على حدة الخطأ الذي قام به الاعب
-                %li The severity of the infraction is usually based on the player’s previous infractions.
-                %حدة العقوبة تعتمد عادة على الأخطاء اللتي قام بها الاعب من قبل
-                %li In particularly serious or blatant cases of rules violation, including but not limited to using a hacking client on the servers, or consistently team griefing despite moderator intervention, will result in an immediate permanent ban, without warning.
-                %في الحالات الخطيرة او حالات خرق القوانين بشكل متعمد و واضح مثل إستخدام برنامج للإختراق أو القيام بالتخريب على الفريق بشكل متعمد و متكرر سوف يتم حظر الحساب دون تحذير
-                %li Players with many warnings for the same rule may be temporarily banned without notice.
-                %يوجد إحتمالية لحظر اللاعبين الذين لديهم تنبيهات كثيرة بسبب خرق القاعدة نفسها لمدة من الزمن
-                %li Ban evasion is not permitted, and will result in a permanent ban for all alternate accounts associated with the evading player. The alternate accounts will not be unbanned once the original ban expired, and the original ban may be extended up to thrice the length of the original ban. (e.g. 1 week ban becomes up to a 3 week ban).
-                %التحايل على الحظر بإستخدام حساب أخر غير مسموح و يؤدي إلى حظر جميع الحسابات المتعلقة بالحساب الأساسي . الحسابات التي تم إستخدامها للتحايل لن يتم رفع الحظر عنها إذا تم رفع الحظر عن الحساب الأساسي. و سوف يتم رفع فترة الحظر على الحساب الأساسي ثلاثة أضعاف  مثل أذا كانت الفترة الأصلية أسبوع بعد التحايل تصبح ثلاثة أسابيع
-                %li Persistent ban evasion will result in a permanent ban for all accounts.
-                %التحايل الدائم على الحظر سوف يؤدي إلى الحظر الدائم على جميع الحسابات المتعلقة في اللاعب
-                %li
-                    %Players violating any forum rules may be banned from posting to the forums. If your ban stays for more than 7 days please contact
-                    %a{:href => "mailto:support@oc.tc"} support@oc.tc
-                    for the exact length of your ban.
+                 %li يمكن أن يتلقى الاعب إنذار داخل اللعبة أو عقوبة بسبب خرق أي من القوانين المذكورة أعلى إعتمادا على حدة الخطأ الذي قام به الاعب
+                %li حدة العقوبة تعتمد عادة على الأخطاء اللتي قام بها الاعب من قبل
+                %li في الحالات الخطيرة او حالات خرق القوانين بشكل متعمد و واضح مثل إستخدام برنامج للإختراق أو القيام بالتخريب على الفريق بشكل متعمد و متكرر سوف يتم حظر الحساب دون تحذير
+                %li يوجد إحتمالية لحظر اللاعبين الذين لديهم تنبيهات كثيرة بسبب خرق القاعدة نفسها لمدة من الزمن
+                %li التحايل على الحظر بإستخدام حساب أخر غير مسموح و يؤدي إلى حظر جميع الحسابات المتعلقة بالحساب الأساسي . الحسابات التي تم إستخدامها للتحايل لن يتم رفع الحظر عنها إذا تم رفع الحظر عن الحساب الأساسي. و سوف يتم رفع فترة الحظر على الحساب الأساسي ثلاثة أضعاف  مثل أذا كانت الفترة الأصلية أسبوع بعد التحايل تصبح ثلاثة أسابيع
+                %li التحايل الدائم على الحظر سوف يؤدي إلى الحظر الدائم على جميع الحسابات المتعلقة في اللاعب
                   %support@oc.tc  يمكن حظر اللاعبين الذين يخرقون قوانين المنتديات من التفاعل فيهم. إذا ظل الحظر على حسابك لمدة أكثر من اسبوع عليك أن تراسل 
-                %li Players violating any mumble rules may be kicked or banned from the mumble server
               %mumble  سوف يتم طرد أو حظر أي لاعب يخرق قوانين إستخدام خدمة 
-                %li Players violating the rules on any Overcast Network service, including the game servers, the forums, and mumble, may be banned from any or all of the services.
                 %liاللاعبين الذين يخرقون أي قوانين على شبكة بشكل عام يمكن طردهم أو حظرهم من أي خدمة تقدمها الشبكة
-                %li
-                    In game bans must be appealed by filing an appeal at
-                    = succeed '.' do
-                        %a{:href => "/appeal"} https://oc.tc/appeal
-                    Forum and mumble bans must be appealed via an email to
-                    = succeed '.' do
                         %a{:href => "mailto:support@oc.tc"} support@oc.tc
                 %li https://oc.tc/appeal إذا تم حظرك و تود تقديم إستئناف يمكنك ذلك على الصف
-             %support@oc.tc   تقديم الإستئنافات التي تتعلق بالمنتديات و الخدمات الإخرى يجب أن ترسل على 
+             %lisupport@oc.tc   تقديم الإستئنافات التي تتعلق بالمنتديات و الخدمات الإخرى يجب أن ترسل على 
                 %b Any player that knowingly gives false info in his or her appeal may be permanently banned.
                 %أي لاعب يقدم معلومات خاطئة في الإستئناف بشكل متعمد يمكن أن يتم حظر حسابه بشكل دائم
                 %span.label.label-warning Note 
                 ملاحظة
-                %small All infractions are subject to staff discretion.
                 %جميع العقوبات تضخع لحرية تصرف العاملين و الموظفين في الشبكة
     .page-header
-        %h2 J. Miscellaneous
-        متنوع
+       h2 J. متنوع
     .row
         .span12
             %ol
-                %li These rules are subject to change with notice.
-                %هذه القوانين يمكن أن تتغير من دون تحذير
-                %li Players are responsible for keeping up with rule changes.
-                %من مسؤولية اللاعبين الاطلاع على التغيرات التي تحصل في القوانين
-                %li There is a one week grace period for rule changes.
-                %يوجد فترة سماح قدرها اسبوع للتغيرات في القوانين
-                %li The Overcast Network Administration reserves the right to ban or unban any player from any Overcast Network services for any reason without notice.
-                %تحتفظ الشبكة في الحق لحظر أو إزالة الحظر عن أي لاعب من أي خدمة تقدمها الشبكة من دون أي إنذار
+                %li هذه القوانين يمكن أن تتغير من دون تحذير
+                %li من مسؤولية اللاعبين الاطلاع على التغيرات التي تحصل في القوانين
+                %li يوجد فترة سماح قدرها اسبوع للتغيرات في القوانين
+                %li تحتفظ الشبكة في الحق لحظر أو إزالة الحظر عن أي لاعب من أي خدمة تقدمها الشبكة من دون أي إنذار
