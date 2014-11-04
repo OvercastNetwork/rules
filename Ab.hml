@@ -8,7 +8,7 @@
         .span12
             %span.label.label-warning Note
             %span
-هذه القواعد تنطبق على جميع الاعبين في الشبكة 
+% هذه القواعد تنطبق على جميع الاعبين في الشبكة 
 
     .page-header
         %h2
