@@ -1,11 +1,11 @@
 %section
     .page-header
-        %h1
-            القواعد
-            %small Last Updated August 23, 2014
-            = render "select"
+        %h1 القواعد
+        
+           %small Last Updated August 23, 2014
+           = render "select"
     .row
-        .span12
+      .span12
             %span.label.label-warning Note
             %span
             % هذه القواعد تنطبق على جميع الاعبين في الشبكة 
