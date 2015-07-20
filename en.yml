@@ -1,0 +1,161 @@
+en:
+    rules:
+        index:
+            title: Rules
+            updated: Last Updated January 25, 2015
+            all_services: These rules apply to **all** Overcast Network Services.
+            note: Note
+            rules:
+            -
+                header: A. General Composure
+                rules:
+                - Maintain a pleasant, casual atmosphere. Be respectful and use common sense. Excessive swearing, rudeness and harassment is not tolerated.
+                - Try to maintain proper spelling and grammar.
+                - Do not spam.
+                - 'Do not link to any of the following:'
+                -
+                    list:
+                    - 'Objectionable material, which includes but is not limited to pornography, "shock sites", viruses, phishing sites and hate groups.'
+                    - Other websites or servers in a manner that constitutes advertising.
+                    - Personal identifying information of other users.
+                - Do not encourage or partake in rule breaking on Overcast Network services.
+                - Do not impersonate any member of the Overcast Network staff, or claim to be a staff member.
+                - Report issues or bugs of Overcast Network services to either the forums or to support@oc.tc; exploitation of bugs for any reason other than to demonstrate at the request of a staff member will result in a punishment.
+                - Follow any directions given by a Overcast Network staff member. If you believe a staff member has directed you wrongly, please email support@oc.tc.
+                notes:
+                - If you are concerned about links that may constitute advertising, please clarify with a staff member before posting.
+            -
+                header: B. Website Behavior
+                rules:
+                - Do not make topics or posts aiming to insult or provoke other people or groups, and do not promote or encourage others to make such posts.
+                - 'Do not make posts that mock or "predict" inflammatory comments, as they encourage users to make such comments.'
+                - Do not reply to topics with irrelevant, meaningless, or spammy text/images.
+                - 'Do not "bump" topics by posting something that does not contribute constructively to the topic.'
+                - All personal issues must be dealt with in private. The public forums are not the place for personal conflicts.
+                - Criticism of the work of others, both staff and the larger community, must be delivered with politeness and personal respect.
+                - Do not make topics just to announce that you are quitting the game or the server. Exceptions may be made if you are quitting for a very interesting reason, like you are dying, or sailing around the world.
+                - Announcements about dramatic events befalling other players must include a verifiable source for the information. If we cannot easily verify the story, the topic may be removed. Deliberate hoaxes of this nature are considered very serious infractions.
+                - Do not reply to a topic that you feel is violating the rules, submit a report instead. Intentionally lying in a report is considered an infraction.
+                - Do not abuse HTML in the forums or personal profiles in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
+                notes:
+                - Your profile or contact information may be wiped without notice.
+            -
+                header: C. Mumble
+                rules:
+                - Do not impersonate other players on Mumble.
+                - Your Mumble name should be your in-game name or some easily identified variation.
+                - Do not spam actions that send messages to others (such as spamming mute, deafen or disconnecting and reconnecting repeatedly)
+            -
+                header: D. Server Behavior
+                rules:
+                - Do not send messages that encourage other players into leaving a team or disconnecting from the server.
+                - Unless you are explaining the report process, you may not encourage others to report a specific player.
+                - Please do not publicly accuse any players of hacking. If you believe a player is hacking or breaking any rules report them using the /report command.
+                - You may not use any form of in game chat to solicit. Any account that is determined to be for the sole use of soliciting will be permanently banned without warning.
+                - You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use /msg command to inform players that request it).
+                - Your username must be appropriate, and you may be asked to use a different account if your username is found to be inappropriate. (This does not count as ban evasion.)
+                notes:
+                - All chat messages and commands are logged.
+                - You may link to your Overcast Network related livestream, so long as you don’t spam it.
+            -
+                header: E. General Gameplay
+                rules:
+                - Players may not abuse glitches. This includes, but is not limited to, placing blocks in areas restricted by the plugin to walk on, creating an "x-ray" effect, and causing yourself to be invincible.
+                - In a Blitz or Ghost Squadron match, players may not prolong a match by avoiding combat and/or hiding in places that are inaccessible or difficult to get to.
+                - 'Observers may never give tactical information to players or intentionally disrupt gameplay. Tactical information includes, but is not limited to:'
+                -
+                    list:
+                    - Revealing the locations of players
+                    - Revealing the ownership of wool in a Capture the Wool map
+                - Please use an appropriate skin - you may be punished for an inappropriate skin.
+                - Do not spawn camp.
+                -
+                    list:
+                    - Do not "camp" a spawn by waiting next to or in a spawn for newly spawned players.
+                    - Do not directly attack any spawn (e.g. run towards a spawn and start hitting people in that spawn, stick around, and kill everyone that spawns).
+                    - Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
+                    - Do not make the spawn area impassable.
+                notes:
+                - Spawn camping rules do not apply on Team Deathmatch and Blitz maps.
+            -
+                header: F. Client Modifications
+                rules:
+                - Any client modifications that give an unfair advantage over vanilla Minecraft users are illegal while playing.
+                - Any external tools that modify gameplay to give an unfair advantage over users not using the tool are illegal while playing.
+                - 'The following modifications are explicitly permitted during gameplay:'
+                -
+                    permitted:
+                    - Optifine
+                    - ArmorStatusHUD/StatusEffectHUD
+                    - Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
+                    - Texture packs that do not fall under any "explicitly prohibited" category
+                    - Minimaps except as specified below
+                - 'The following modifications are explicitly prohibited during gameplay:'
+                -
+                    prohibited:
+                    - Inventory Sorters
+                    - Mods that expose or enlarge the name-tags of players
+                    - Automatic tool selectors
+                    - Minimaps that show entity positions, or show caves/underground.
+                    - X-rays
+                    - Auto-hitters
+                    - Aimbots
+                    - Fly mods
+                    - Damage/Health Indicator
+                    - SmartMoving
+                    - Better Sprinting
+                - For any other mods, email support@oc.tc for confirmation before using it.
+                - Observers are not bound to these restrictions.
+                notes:
+                - Players in creative mode are not bound to these restrictions.
+                - Players in the lobby are not allowed to use fly modifications.
+            -
+                header: G. Team Griefing
+                rules:
+                - "Team griefing is prohibited, and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team."
+                - 'The following are explicitly team griefing:'
+                -
+                    list:
+                    - "Placing and/or setting off TNT near teammates or near key team infrastructure (eg. chests, defences or ore) within one's own base"
+                    - "Destroying one's own team's chests or workbenches"
+                    - Teamkilling (either by removing blocks from beneath a person to cause them to fall, or pushing teammates off the world)
+                    - Using/modifying a TNT cannon built by another player without explicit permission
+                    - Aiding or working together with a member of the other team
+                - 'The following are considered reckless and strongly discouraged (you may be warned for breaking the following rules):'
+                -
+                    list:
+                    - "Placing TNT in one's own base, especially building TNT towers in one's own base"
+                    - Building unprotected TNT near teammates or objectives
+                    - Taking all or almost all of the wool in a Capture the Wool map out of a wool room, unless there is only one wool left in that wool room
+                - 'Any actions that are not listed here that hinder your team’s progress towards winning the match, deliberate or not, still fall under "team griefing" and may be dealt with as such.'
+                notes:
+                - Players are **NEVER** permitted to team grief, even in retaliation to another team griefer.
+            -
+                header: H. Map Specific Rules
+                rules:
+                - "All players are responsible for keeping up to date with all map rules. Map rules are found on map rule boards at that map’s spawn, and via the /map command."
+                - The rules in /map take precedent over the rule board in cases regarding the same subject.
+            -
+                header: I. Consequences
+                rules:
+                - Players may receive an in game warning or an infraction for breaking any of the rules above, depending on the severity of the violation.
+                - "The severity of the infraction is usually based on the player’s previous infractions."
+                - In particularly serious or blatant cases of rules violation, including but not limited to using a hacking client on the servers, or consistently team griefing despite moderator intervention, will result in an immediate permanent ban, without warning.
+                - Players with many warnings for the same rule may be temporarily banned without notice.
+                - Ban evasion is not permitted, and will result in a permanent ban for all alternate accounts associated with the evading player. The alternate accounts will not be unbanned once the original ban expired, and the original ban may be extended up to thrice the length of the original ban. (e.g. 1 week ban becomes up to a 3 week ban).
+                - Persistent ban evasion will result in a permanent ban for all accounts.
+                - Players violating any forum rules may be banned from posting to the forums. If your ban stays for more than 7 days please contact support@oc.tc for the exact length of your ban.
+                - Players violating any mumble rules may be kicked or banned from the mumble server.
+                - Players violating the rules on any Overcast Network service, including the game servers, the forums, and mumble, may be banned from any or all of the services.
+                - In game bans must be appealed by filing an appeal.
+                - Forum and mumble bans must be appealed via an email to support@oc.tc.
+                - '**Any player that knowingly gives false info in his or her appeal may be permanently banned.**'
+                notes:
+                - All infractions are subject to staff discretion.
+            -
+                header: J. Miscellaneous
+                rules:
+                - These rules are subject to change with notice.
+                - Players are responsible for keeping up with rule changes.
+                - There is a one week grace period for rule changes.
+                - The Overcast Network Administration reserves the right to ban or unban any player from any Overcast Network services for any reason without notice.
