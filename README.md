@@ -1,8 +1,8 @@
 rules
 =======
 
-Translations of the Overcast Network ruleset into other languages
+The Overcast Network ruleset
 
 ## How to Contribute
 
-Read the [CONTRIBUTING.md](https://github.com/OvercastNetwork/rules/blob/master/CONTRIBUTING.md)
+Translations are now handled on [CrowdIn](https://crowdin.com/project/ocn-website). This repository is for rule changes only.
