@@ -52,7 +52,7 @@ en:
                 - Unless you are explaining the report process, you may not encourage others to report a specific player.
                 - Please do not publicly accuse any players of hacking. If you believe a player is hacking or breaking any rules report them using the /report command.
                 - You may not use any form of in game chat to solicit. Any account that is determined to be for the sole use of soliciting will be permanently banned without warning.
-                - You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use /msg command to inform players that request it).
+                - You may not link to, or solicit players to join, any server public or private that is not part of the Overcast Network in public chat. (You may use the /msg command to inform players that request it).
                 - Your username must be appropriate, and you may be asked to use a different account if your username is found to be inappropriate. (This does not count as ban evasion.)
                 notes:
                 - All chat messages and commands are logged.
@@ -112,7 +112,7 @@ en:
             -
                 header: G. Team Griefing
                 rules:
-                - "Team griefing is prohibited, and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team."
+                - "Team griefing is prohibited and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team."
                 - 'The following are explicitly team griefing:'
                 -
                     list:
@@ -142,7 +142,7 @@ en:
                 - "The severity of the infraction is usually based on the player’s previous infractions."
                 - In particularly serious or blatant cases of rules violation, including but not limited to using a hacking client on the servers, or consistently team griefing despite moderator intervention, will result in an immediate permanent ban, without warning.
                 - Players with many warnings for the same rule may be temporarily banned without notice.
-                - Ban evasion is not permitted, and will result in a permanent ban for all alternate accounts associated with the evading player. The alternate accounts will not be unbanned once the original ban expired, and the original ban may be extended up to thrice the length of the original ban. (e.g. 1 week ban becomes up to a 3 week ban).
+                - Ban evasion is not permitted and will result in a permanent ban for all alternate accounts associated with the evading player. The alternate accounts will not be unbanned once the original ban expired, and the original ban may be extended up to thrice the length of the original ban. (e.g. 1 week ban becomes up to a 3 week ban).
                 - Persistent ban evasion will result in a permanent ban for all accounts.
                 - Players violating any forum rules may be banned from posting to the forums. If your ban stays for more than 7 days please contact support@oc.tc for the exact length of your ban.
                 - Players violating any mumble rules may be kicked or banned from the mumble server.
