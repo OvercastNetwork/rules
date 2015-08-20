@@ -69,15 +69,6 @@ en:
                     - Revealing the locations of players
                     - Revealing the ownership of wool in a Capture the Wool map
                 - Please use an appropriate skin - you may be punished for an inappropriate skin.
-                - Do not spawn camp.
-                -
-                    list:
-                    - Do not "camp" a spawn by waiting next to or in a spawn for newly spawned players.
-                    - Do not directly attack any spawn (e.g. run towards a spawn and start hitting people in that spawn, stick around, and kill everyone that spawns).
-                    - Do not aim TNT cannons at a spawn or repeatedly drop TNT on a spawn.
-                    - Do not make the spawn area impassable.
-                notes:
-                - Spawn camping rules do not apply on Team Deathmatch and Blitz maps.
             -
                 header: F. Client Modifications
                 rules:
