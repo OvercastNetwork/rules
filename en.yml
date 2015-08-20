@@ -2,7 +2,7 @@ en:
     rules:
         index:
             title: Rules
-            updated: Last Updated August 11, 2015
+            updated: Last Updated August 20, 2015
             all_services: These rules apply to **all** Overcast Network Services.
             note: Note
             rules:
