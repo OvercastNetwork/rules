@@ -104,7 +104,7 @@ en:
             -
                 header: G. Team Griefing
                 rules:
-                - "Team griefing is prohibited and is defined as any reckless action that harms your own team, or actions that intentionally harms one's own team."
+                - 'Team griefing is prohibited and is defined as any reckless or intentional action that harms your own team.'
                 - 'The following are explicitly team griefing:'
                 -
                     list:
