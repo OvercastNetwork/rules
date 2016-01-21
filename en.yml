@@ -80,7 +80,7 @@ en:
                     - Optifine
                     - ArmorStatusHUD/StatusEffectHUD
                     - Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
-                    - Texture packs that do not fall under any "explicitly prohibited" category
+                    - Resource packs that do not fall under any "explicitly prohibited" category
                     - Minimaps except as specified below
                 - 'The following modifications are explicitly prohibited during gameplay:'
                 -
