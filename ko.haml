@@ -2,231 +2,219 @@
     .page-header
         %h1
             규칙
-            %small 마지막 업데이트 January 7, 2016
+            %small 마지막 업데이트 2016년 1월 7일
             = render "select"
     .row
         .span12
-            %span.label.label-warning 주의
+            %span.label.label-warning 참고
             %span
-            이 규칙은 모든 Overcast Network 서비스에 적용됩니다.
+            이 규칙은
+            %b 모든
+            Overcast Network 서비스에 적용됩니다.
 
     .page-header
-        %h2
-            A. 일반 규칙들
+        %h2 가. 일반 규칙들
     .row
         .span12
             %ol
-                %li 쾌적하고 편안한 분위기를 유지합니다. 상대방을 존중하고 상식적으로 행동합니다. 과도한 욕설, 무례함과 놀림 등은 처벌받을 수 있습니다.
-                %li 올바른 맞춤법 및 문법을 씁시다.
-                %li 도배하지 마십시오.
-                %li 다음에 해당되는 링크를 올리지 마십시오:
+                %li 쾌적하고 가벼운 분위기를 유지합니다. 상대방을 존중하고 상식적으로 행동합니다. 과도한 욕설과 무례함, 괴롭힘은 용납되지 않습니다.
+                %li 적절한 맞춤법과 문법을 지키도록 노력합니다.
+                %li 스팸하지 마십시오.
+                %li 다음에 해당하는 링크를 연결하지 않습니다:
                 %ol{:type => "a"}
-                    %li “불쾌한 사이트” 일명 바이러스, 피싱사이트, 성인 사이트, 안티 사이트.
-                    %li 광고를 목적으로 하는 다른 웹사이트나 서버
-                    %li
-                        %a{:href => "https://en.wikipedia.org/wiki/Personally_identifiable_information#Examples"} 개인정보 유출위험이 있는 사이트.
-                %li Overcast Network의 규칙을 어기는것에 동참하지 마십시오.
-                %li 자기가 스태프임을 주장하지 마십시오.
-                %li 버그 등을 포럼 (http://oc.tc/forums) 이나 support@oc.tc 에 보고하고 버그를 악용할 시에 처벌당할 수 있습니다.
-                %li 스태프들의 지시사항을 따르십시오. 스태프에 문제점이 있다면, support@oc.tc 에 이메일을 보내주십시오.
-                %span.label.label-warning 주의
-                %small 올리려는 게시물에 광고우려가 있다면 스태프와 상의한 후 올리십시오.
+                    %li 포르노그래피와 "쇼크 사이트", 바이러스, 피싱 사이트, 혐오 단체 등을 포함하는 불쾌한 내용물.
+                    %li 광고가 포함되도록 구성된 다른 웹사이트 혹은 서버.
+                    %li 다른 사용자의 개인 식별 정보.
+                %li Overcast Network 서비스에 대한 규칙 위반을 조장하거나 참여하지 않습니다.
+                %li Overcast Network 스태프의 일원임을 가장하거나 주장하지 마십시오.
+                %li Overcast Network 서비스의 이슈나 버그를 포럼이나 support@oc.tc에 리포트하세요; 스태프의 요청에 의한 입증 외의 버그의 악용은 어떠한 이유로든 처벌 받을 수 있습니다.
+                %li Overcast Network 스태프 맴버가 주는 모든 지시를 따릅니다. 만약 스태프 맴버가 당신을 잘못 지시했다고 생각되면, support@oc.tc에 이메일을 보내주세요.
+                %span.label.label-warning 참고
+                %small 만약 당신이 광고를 게시할 수 있는 링크에 대해 우려하신다면, 게시하기 전에 스태프에게 명확히 알려주세요.
 
     .page-header
-        %h2 B. 웹사이트 규칙
+        %h2 나. 웹사이트 상의 행위
     .row
         .span12
             %ol
-                %li
-                    Do not make topics or posts aiming to insult or provoke other people or groups,
-                    and do not promote or encourage others to make such posts.
-                %li Do not make posts that mock or "predict" inflammatory comments, as they encourage users to make such comments.
-                %li Do not reply to topics with irrelevant, meaningless, or spammy text/images.
-                %li Do not "bump" topics by posting something that does not contribute constructively to the topic.
-                %li All personal issues must be dealt with in private. The public forums are not the place for personal conflicts.
-                %li Criticism of the work of others, both staff and the larger community, must be delivered with politeness and personal respect.
-                %li
-                    Do not make topics just to announce that you are quitting the game or the server.
-                    Exceptions may be made if you are quitting for a <em>very</em> interesting reason, like you are dying, or sailing around the world.
-                %li
-                    Announcements about dramatic events befalling yourself or others must include a verifiable source for the information.
-                    If we cannot easily verify the story, the topic may be removed.
-                    Deliberate hoaxes of this nature are considered very serious infractions.
-                %li
-                    Do not reply to a topic that you feel is violating the rules,
-                    %a{:href => "/report"}submit a report
-                    instead. Intentionally lying in a report is considered an infraction.
-                %li Do not abuse HTML in the forums or personal profiles in a way that makes navigation difficult, causes extreme browser lag, or exceeds the preset boundaries.
-                %small.label.label-warning 주의
-                %small 프로필이나 연락처가 경고없이 지워질 수 있습니다.
+                %li 다른 사람들이나 단체를 자극하거나 모욕하는 토픽이나 포스트를 만들지 마십시오, 또한 타인에게 이러한 포스트를 만들도록 권장하거나 조장하지 마십시오.
+                %li 선동적인 글을 조롱하거나 "예측"하는 포스트는 사용자에게 그러한 글을 달도록 조장하니 게시하지 않습니다.
+                %li 관련이나 의미가 없거나 스팸같은 본문/이미지가 달린 토픽에 답글을 달지 마십시오.
+                %li 토픽에 건설적인 기여를 하지 않는 내용으로 토픽을 갱신("bump") 하지 마십시오.
+                %li 모든 사적 문제는 사적으로 처리되어야 합니다. 공개 포럼은 사적인 갈등을 위한 장소가 아닙니다.
+                %li 스태프와 더 큰 커뮤니티를 포괄한 타인의 작업의 대한 비평은 예의와 개인적 존중으로 전달되어야 합니다.
+                %li 게임이나 서버를 그만 두는 것을 발표하려고 토픽을 만들지 마십시오. 만약 당신이 죽어간다던가 세계 일주를 한다는 아주 흥미로운 이유로 그만 두는 경우 예외가 성립될 수 있습니다.
+                %li 당신이나 다른 사람들에게 일어난 극적인(dramatic) 사건 사고를 올리게 된다면 반드시 그것을 뒷받침 해줄 수 있는 자료를 첨부해 주십시오. 만약 이야기를 수월하게 검증하기 어려울 경우 토픽은 삭제될 수 있습니다. 이런 종류의 고의적 장난은 매우 심각한 위반으로 간주됩니다.
+                %li 규칙을 위반하고 있다고 생각되는 토픽에 답글을 달지 마십시오, 대신 리포트를 해주세요. 의도적으로 거짓 리포트를 하는 것은 위반 사항으로 간주됩니다.
+                %li 포럼이나 개인 프로필에 HTML을 악용하여 브라우징을 어렵게 하거나, 심각한 렉을 발생시키게 하거나, 조정된 경계를 벗어나지 하지 마십시오.
+                %span.label.label-warning 참고
+                %small 당신의 프로필이나 연락처 정보는 통보 없이 지워질 수 있습니다.
 
     .page-header
-        %h2 C. 멈블(Mumble:보이스톡 프로그램)
+        %h2 다. 멈블
     .row
         .span12
             %ol
-                %li 멈블에서 다른 플레이어를 가장하지 않습니다.
-                %li 귀하 멈블의 이름은 게임 내 이름 또는 누구나 당신이 누군지 알 수 있어야 합니다.
-                %li 도배하지 마십시오
+                %li 멈블에서 타 플레이어임을 가장하지 않습니다.
+                %li 당신의 멈블 이름은 게임 내 이름이어야 하거나 쉽게 식별할 수 있어야 합니다.
+                %li 다른 이용자들에게 스팸 메세지가 보내지는 행동 (음소거 연속적으로 누르기, 굉음 혹은 연속적으로 재접속) 을 하지 마십시오.
 
     .page-header
-        %h2 D. 서버규칙
+        %h2 라. 서버 상의 행위
     .row
         .span12
             %ol
-                %li 게임을 나가도록 다른 플레이어들을 유도하는 말을 하지 마십시오.
-                %li 다른 사람을 신고하도록 유도하지 마십시오.
-                %li 공개적으로 다른사람이 핵쓴다고 하지 마십시오. 핵이 의심된다면 /report 명령어를 사용하세요,
-                %li 광고 성 채팅을 하지 마십시오. 광고성 유저라고 판단되는 경우 경고 없이 영구밴처리 됩니다.
-                %li Overcast Network외의 다른 서버를 링크하지 마십시오. (누가 요청할시에는 /msg로 개인적으로 전하십시오)
-                %li 닉네임이 적절해야합니다. 적절하지 않다면 제제가 가해질수도 있습니다.
-                %li If you have access to the /nick command, any chosen nickname should be designed to confer anonymity, not attention. You may not use /nick to impersonate others, and you may not use an inappropriate nickname.
-                %span.label.label-warning 주의
-                %small 모든 채팅 메시지 및 명령어들이 기록됩니다.
+                %li 다른 플레이어에게 팀을 떠나거나 서버 접속 종료를 조장하는 메시지를 보내지 마십시오.
+                %li 리포트 과정을 설명하는 경우가 아닐 시, 다른 사람들에게 특정 플레이어를 리포트하도록 조장해서는 안됩니다.
+                %li 해킹을 하는 플레이어를 공개적으로 비난하지 말아주세요. 만약 그 플레이어가 해킹을 하거나 규칙을 어기고 있는 것으로 생각하신다면 /report 명령어를 사용하여 리포트 해주세요.
+                %li 어떤 형식으로든 게임상의 채팅을 구걸(solicit)의 목적으로 쓰여서는 안됩니다. 오직 구걸을 목적으로 사용되는 것으로 밝혀진 계정은 경고 없이 영구적으로 차단됩니다.
+                %li 공개 채팅에 Overcast Network의 일부가 아닌 공개 혹은 비공개 서버를 입장하도록 권유하거나 링크를 걸어서는 안됩니다. (/msg 명령어를 이용해 플레이어에게 요청할 수 있습니다).
+                %li 당신의 닉네임은 적합해야 합니다, 당신의 닉네임이 부적합한 것으로 보일 경우 다른 계정을 사용하도록 요구 받을 것입니다. (이런 경우는 차단 회피로 간주되지 않습니다.)
+                %li /nick 명령어에 접근할 수 있는 경우, 선택된 모든 닉네임은 다른 사람으로부터의 관심이 아닌 익명성 부여에 의도 되어야 합니다. /nick을 통해 다른 사람을 가장하거나 부적합한 닉네임을 이용하는데 사용될 수 없습니다.
+                %span.label.label-warning 참고
+                %small 모든 채팅 메시지와 명령어는 기록됩니다.
                 %br
-                %span.label.label-warning 주의
-                %small 도배하지 않는 한 Overcast Network에 관한 방송을 링크할 수 잇습니다.
-    .page-header
-        %h2 E. 일반 게임 플레이
-    .row
-        .span12
-            %ol
-                %li 플레이어는 불법적 우위를 점하기 위해 마인크래프트 버그를 악용하지 않습니다.
-                %li 블리츠 나 고스트 스쿼드론 경기에서, 플레이어는 숨어서 시간을 연장시킬 수 없습니다.
-                %li 관찰자 모드에서 다음의 전술 정보를 제공하거나 의도적으로 게임 플레이를 방해하지 않습니다.
-                %ol{:type => "a"}
-                    %li 플레이어의 위치를 공개
-                    %li 양털 가져오기 경기에서 양털을 누가 가지고 있는지
-                %li 적절한 스킨을 사용하십시오 - 부적절한 스킨을 사용시 처벌당할수 있습니다.
+                %span.label.label-warning 참고
+                %small 스팸을 하지 않는 이상 당신은 Overcast Network에 관련된 생방송을 링크할 수 있습니다.
 
     .page-header
-        %h2 F. 클라이언트 모드
+        %h2 마. 일반적 게임플레이
     .row
         .span12
             %ol
-                %li 불법적으로 상대방으로부터 우위를 점하게 하는 모드는 불법입니다.
-                %li Any external tools that modify gameplay to give an unfair advantage over users not using the tool are illegal while playing.
-                %li 사용 가능한 모드:
+                %li 플레이어는 결함을 남용해서는 안됩니다. 이것은 플러그인에 의해 제한된 공간에 블럭을 설치해서 걸어가기와 "엑스레이" 효과 만들기, 자신을 무적으로 만들기 등을 포함합니다.
+                %li Blitz나 Ghost Squadron 매치에서 플레이어들은 전투를 회피하거나 접근이 불가능하거나 어려운 곳에 숨으면서 매치를 지연 시켜선 안됩니다.
+                %li 옵저버는 절대로 전술 정보를 플레이어에게 전달하거나 의도적으로 게임플레이를 방해해서는 안됩니다. 전술 정보는 다음과 같지만, 그것에 국한되지는 않습니다:
+                %ol{:type => "a"}
+                    %li 플레이어의 위치 밝히기
+                    %li CTW 맵의 양모 소유자 밝히기
+                %li 적절한 스킨을 이용해주세요 - 부적절한 스킨으로 인해 처벌을 받을 수 있습니다.
+
+    .page-header
+        %h2 바. 클라이언트 모드
+    .row
+        .span12
+            %ol
+                %li 순정 Minecraft 유저에게 부당한 이득을 취하는 모든 클라이언트 모드는 플레이 하는 동안 불법입니다.
+                %li 툴을 사용하지 않는 유저에게 부당한 이득을 취하는 모든 외부 툴은 플레이 하는 동안 불법입니다.
+                %li 다음에 해당하는 모드는 게임플레이를 하는 동안 명시적으로 허용됩니다:
                 %ul.unstyled
                     %li
                         %i.fa.fa-check
                         옵티파인
                     %li
                         %i.fa.fa-check
-                        갑옷상태 표시모드 (ArmorStatusHUD/StatusEffectHUD)
+                        ArmorStatusHUD/StatusEffectHUD
                     %li
                         %i.fa.fa-check
-                        인벤토리 볼떄나 채팅칠때 제외하고 자동으로 쉬프팅하게 해주는 모드(Toggle-Crouch)
+                        타이핑을 하거나 인벤토리나 아무 메뉴를 볼 때 엎드리지 않는 자동 엎드리기
                     %li
                         %i.fa.fa-check
-                        모든 "적절하지 않은" 범위에 속하지 않는 텍스처 팩
+                        "명백히 금지됨" 분류에 해당하지 않는 리소스 팩
                     %li
                         %i.fa.fa-check
-                        밑에 나와있는 불법미니맵들을 제외한 나머지 미니맵모드.
-                    %li
-                        %i.fa.fa-check
-                        한글패치
-                %li 금지되는 모드:
+                        아래 사항에 해당하지 않는 미니맵
+                %li 다음에 해당하는 모드는 게임플레이를 하는 동안 명시적으로 금지됩니다:
                 %ul.unstyled
                     %li
                         %i.fa.fa-times
-                        자동으로 인벤토리를 정리하는 모드
+                        인벤토리 분류기
                     %li
                         %i.fa.fa-times
-                        플레이어의 이름 태그를 커지게 하는 모드
+                        플레이어의 이름 태그를 노출 혹은 확대시키는 모드
                     %li
                         %i.fa.fa-times
-                        자동 인벤토리 핫키
+                        자동 도구 선택기
                     %li
                         %i.fa.fa-times
-                        지하 등을 보여주는 미니맵.
+                        엔티티 위치를 표시하거나 동굴/지하를 표시하는 미니맵.
                     %li
                         %i.fa.fa-times
                         엑스레이
                     %li
                         %i.fa.fa-times
-                        자동 타자기
+                        자동 타격
                     %li
                         %i.fa.fa-times
-                        자동조준 모드
+                        에임봇
                     %li
                         %i.fa.fa-times
-                        플라이 모드
+                        비행 모드
                     %li
                         %i.fa.fa-times
-                        데미지 표식기 (Damage Indicator)
+                        대미지/체력 표시기
                     %li
                         %i.fa.fa-times
                         스마트무빙
                     %li
                         %i.fa.fa-times
-                        자동달리기(Better Sprinting)
-                %li 명시되있지 않는 모드는 support@oc.tc에 이메일로 확인받은뒤에 사용하십시오.
-                %li 관찰자는 상관없습니다.
-                %span.label.label-warning 주의
-                %small 크리에티브 모드에 있는 플레이어들에겐 해당되지 않습니다.
+                        베터 스프린트
+                %li 다른 모드에 대해서는 사용하기 전에 확인을 위해 support@oc.tc에 이메일을 보내세요.
+                %span.label.label-warning 참고
+                %small 옵저버는 이러한 제한에 귀속되지 않습니다.
                 %br
-                %span.label.label-warning 주의
-                %small 로비에서의 플라이모드는 불법입니다.
+                %span.label.label-warning 참고
+                %small 로비에 있는 플레이어는 비행 모드 사용이 허용 되지 않습니다.
 
     .page-header
-        %h2 G. 팀 그리핑 (팀 킬, 우호지역에 TNT등)
+        %h2 사. 팀 방해
     .row
         .span12
             %ol
-                %li 팀 그리핑은 금지되며, 의도적으로 자신의 팀을 해치는 어떠한 행위로 정의된다.
-                %li 팀그리핑일 경우:
+                %li 팀 방해는 금지되어있으며 당신의 팀을 해치는 무분별하거나 의도적으로 자신의 팀을 해치는 모든 행위로 정의됩니다.
+                %li 다음에 해당하는 것은 명백한 팀 방해입니다:
                 %ol{:type => "a"}
-                    %li 자신의 기지 내에 / 또는 동료 TNT를 놓는 행위
-                    %li 자신의 팀의 상자나 작업대를 파괴하는 행위
-                    %li 플레이어가 서있는 블록을 부숴 떨어져 죽게 하는 행위
-                    %li 허가 없이 다를 플레이어의TNT 대포를 만지는 행위
-                    %li 다른 팀을 도와주는 행위
-                %li 경고대상
+                    %li 자신의 기지 안 팀의 핵심 시설(예: 창고, 방어 시설 또는 광물) 주변에 TNT를 설치 및 또는 폭파
+                    %li 자신의 팀의 창고나 작업대를 파괴
+                    %li 팀킬 (사람이 떨어져 버리도록 아래에 있는 블럭을 제거하기 혹은 팀원을 월드 밖으로 밀어내기)
+                    %li 다른 플레이어가 만든 TNT 캐논을 명시적 허용 없이 사용 및 수정
+                    %li 상대방 팀의 팀원에게 지원 혹은 협동하기
+                %li 다음에 해당하는 것은 무분별한 것으로 간주되며 강력히 저지됩니다 (다음 규칙을 어길 시 경고를 받을 수 있습니다):
                 %ol{:type => "a"}
-                    %li 자신의 기지에 TNT를 설치하는 행위, 특히 자신의 기지에 TNT 타워를 건축하는 행위
-                    %li 동료근처에 TNT를 설치하는 행위
-                    %li 양털을 모두 가져가는 행위
-                %li 팀의 승리를 방해하는 모든 행위는 팀 그리핑으로 처벌받습니다.
-                %span.label.label-warning 주의
+                    %li 자신의 기지에 TNT 설치하기, 특히 자신의 기지에 TNT 탑을 짓기
+                    %li 목표물이나 팀원 주변에 보호되지 않은 TNT 짓기
+                    %li 양모 방에 양모가 딱 한 개밖에 남아있는 경우가 아닌 한 CTW 맵에서 양모 방의 양모를 전부 혹은 거의 전부를 빼가기
+                %li 여기에 적혀있지 않는 우승으로부터 팀의 진척을 저해하는 모든 행동도 고의적이든 아니든 "팀 방해"에 충족되며 이와 같이 처리될 수 있습니다.
+                %span.label.label-warning 참고
                 %small
-                    팀그리핑을 당하더라도 복수한다고 그 플레이어에서 팀킬 하지 마십시오.
+                    플레이어가 팀을 방해하는 행위는
+                    %b 절대로
+                    허용되지 않습니다, 이는 다른 방해자를 앙갚음하는 행위도 포함됩니다.
 
     .page-header
-        %h2 H. 특정 맵 규칙
+        %h2 아. 맵 특정 규칙
     .row
         .span12
             %ol
-                %li경기 전 /map로 맵의 규칙을 아십시오.
+                %li 모든 플레이어는 모든 맵 규칙을 숙지하는 것에 책임이 있습니다. 맵 규칙은 맵 스폰에 있는 맵 규칙 판과 /map 명령어를 통해 찾을 수 있습니다.
+                %li 동일한 주제에 대한 규칙은 /map의 규칙이 우선권을 가집니다.
 
     .page-header
-        %h2 I. 처벌
+        %h2 자. 귀결
     .row
         .span12
             %ol
-                %li 모든 플레이어들을 위의 규칙들을 어길 시에 처벌을 받을 수 있습니다.
-                %li 플레이어의 전과(처벌기록)에 따라 처벌의 무게가 달라질 수 있습니다.
-                %li 경고에도 불구하고 계속 규칙을 어길 시에는 예외 없이 바로 밴당할수 있습니다.
-                %li 처벌기록이 많을 때는 예고 없이 밴될 수 있습니다.
-                %li 다른 계정을 통해 밴을 회피하지 마십시오, 그 계정도 밴 처리됩니다.
-                %li 영구 차단 회피는 모든 계정이 대한 차단 됩니다.
-                %li 포럼규칙을 위반하는 유저에게는 포럼에서 차단됩니다.
-                %li 멈블규칙을 위반해도 차단됩니다.
-                %li  게임 서버, 포럼, 멈블 포함한 모든 Overcast Network 서비스에 대한 규칙을 위반하는 유저는 서비스의 일부 또는 전부 금지 할 수 있습니다.
+                %li 플레이어는 상기 규칙을 어길시 심각도에 따라 게임 상에서 경고 혹은 위반을 받을 수 있습니다.
+                %li 위반의 강도는 일반적으로 이전의 위반을 기반으로 합니다.
+                %li 서버에 해킹 클라이언트를 사용함 또는 모더레이터의 개입에도 불구하고 연속적으로 팀을 방해함 등의 특히 심각하거나 노골적인 규칙 위반은 경고 없이 즉각적으로 영구 차단될 것입니다.
+                %li 동일한 규칙에 대해 많은 경고를 받은 플레이어는 통보 없이 일시적으로 차단될 수 있습니다.
+                %li 차단 회피는 허용되지 않으며 회피를 한 플레이어와 연루된 모든 계정이 영구 차단될 것입니다. 본계정의 차단이 풀려도 부계정은 차단이 해제되지 않을 것이며, 본계정의 차단 기한이 3배 더 연장될 것입니다 (예시: 1주일 밴이 3주일 밴으로).
+                %li 지속적인 차단 회피 시 모든 계정이 영구 차단될 수 있습니다.
+                %li 포럼 규칙을 위반하는 플레이어는 포럼 글 작성이 차단될 수 있습니다.
+                %li 멈블 규칙을 위반하는 플레이어는 멈블 서버에서 킥을 당하거나 차단될 수 있습니다.
+                %li 게임 서버, 포럼, 멈블을 포함한 Overcast Network 서비스에서 규칙을 위반하는 플레이어는 서비스 일부 혹은 전체에서 차단 될 수 있습니다.
+                %li 모든 위반은 항소 제기를 통하여 호소할 수 있습니다.
                 %li
-                    밴을 풀려고 할 때는 포럼이 아닌
-                    = succeed '.' do
-                        %a{:href => "/appeal"} https://oc.tc/appeal
-                %li
-                    %b 항소문에 거짓 정보를 기재하는 유저는 영구적으로 차단될 수 있습니다.
-                %span.label.label-warning 주의
-                %small 모든 처벌은 스태프들의 자비에 있습니다.
+                    %b 항소에 고의로 거짓 정보를 주는 모든 플레이어는 영구적으로 차단됩니다.
+                %span.label.label-warning 참고
+                %small 모든 위반은 스태프의 재량에 의거합니다.
+
     .page-header
-        %h2 J. 기타
+        %h2 차. 기타
     .row
         .span12
             %ol
-                %li 이 규칙은 변경 될 수 있습니다.
-                %li 플레이어는 규칙 변화와 유지에 대한 책임이 있습니다.
-                %li 규칙 변경을 한 후 한 주간의 유예 기간이 있습니다.
-                %li Overcast Network 관리자들은 예고 없이 누구나 밴 또는 밴을 풀 권리가 있습니다.
+                %li 이러한 규칙은 통보 후 변경될 수 있습니다.
+                %li 플레이어는 규칙 변경을 숙지하는 것에 책임이 있습니다.
+                %li 규칙 변경에 대한 1주일의 유예 기간이 있습니다.
+                %li Overcast Network 관리진은 Overcast Network 서비스에서 플레이어를 통보 없이 차단하거나 차단을 해제 시킬 권리를 가집니다.

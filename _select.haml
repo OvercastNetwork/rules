@@ -1,6 +1,9 @@
 %form.form-inline.pull-right
     %select#languageselect{:onchange => "window.location.href = this.options[this.selectedIndex].value"}
         %optgroup{:label => "Select your language"}
+            %option{:value => "af", :selected => code_matches("af")} Afrikaans
+            %option{:value => "ar", :selected => code_matches("ar")} العربية
+            %option{:value => "ca", :selected => code_matches("ca")} Català
             %option{:value => "da", :selected => code_matches("da")} Dansk
             %option{:value => "de", :selected => code_matches("de")} Deutsch
             %option{:value => "en", :selected => code_matches("en")} English
@@ -9,5 +12,7 @@
             %option{:value => "it", :selected => code_matches("it")} Italiano
             %option{:value => "ko", :selected => code_matches("ko")} 한국어
             %option{:value => "nl", :selected => code_matches("nl")} Nederlands
-            %option{:value => "ru", :selected => code_matches("ru")} Русский
+            %option{:value => "pl", :selected => code_matches("pl")} Polski
+            %option{:value => "ro", :selected => code_matches("ro")} Română
             %option{:value => "sv", :selected => code_matches("sv")} Svenska
+            %option{:value => "th", :selected => code_matches("th")} ไทย
