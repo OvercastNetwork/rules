@@ -79,6 +79,7 @@ en:
                     permitted:
                     - Optifine
                     - ArmorStatusHUD/StatusEffectHUD
+                    - LabyMod (v2.6 and above)
                     - Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
                     - Resource packs that do not fall under any "explicitly prohibited" category
                     - Minimaps except as specified below
