@@ -1,5 +1,5 @@
 %form.form-inline.pull-right
-    %select#languageselect{:onchange => "window.location.href = this.options[this.selectedIndex].value"}
+    %select.form-control#languageselect{:onchange => "window.location.href = this.options[this.selectedIndex].value"}
         %optgroup{:label => "Select your language"}
             %option{:value => "af", :selected => code_matches("af")} Afrikaans
             %option{:value => "ar", :selected => code_matches("ar")} العربية
