@@ -2,7 +2,7 @@ en:
     rules:
         index:
             title: Rules
-            updated: Last Updated January 7, 2016
+            updated: Last Updated May 11, 2016
             all_services: These rules apply to **all** Overcast Network Services.
             note: Note
             rules:
@@ -78,8 +78,9 @@ en:
                 -
                     permitted:
                     - Optifine
-                    - ArmorStatusHUD/StatusEffectHUD
+                    - ArmorStatusHUD / StatusEffectHUD
                     - LabyMod (v2.6 and above)
+                    - Toggle Sneak / Sprint (LabyMod / HCF version)
                     - Toggle-crouch that does not allow crouching while typing, looking through inventory, or in any menus
                     - Resource packs that do not fall under any "explicitly prohibited" category
                     - Minimaps except as specified below
@@ -99,6 +100,7 @@ en:
                     - Better Sprinting
                 - For any other mods, email support@oc.tc for confirmation before using it.
                 notes:
+                - Unless explicitly permitted, additional mods which can be installed through LabyMod are not allowed.
                 - Observers are not bound to these restrictions.
                 - Players in the lobby are not allowed to use fly modifications.
             -
