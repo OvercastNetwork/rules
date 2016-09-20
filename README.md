@@ -1,7 +1,7 @@
 rules
 =======
 
-Translations of the Lifeboat PC Network ruleset into other languages
+Translations of the Lifeboat PC ruleset into other languages
 
 ## How to Contribute
 
